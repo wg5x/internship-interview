@@ -2,7 +2,7 @@
 
 ## 使用方式
 
-不要机械地全部问。建议每位候选人选 1 个主项目深挖，再按其方向从浏览器自动化、通用 Agent 平台、RAG、工作流平台和工程落地中各抽 2-3 个问题。
+不要机械地全部问。建议每位候选人选 1 个主项目深挖，再按其方向从浏览器自动化、通用 Agent 平台、RAG、工作流平台和工程落地中各抽 2-3 个问题。所有推进候选人都必须额外覆盖“Agent 思考、决策、反馈闭环”。
 
 ## 开场项目深挖
 
@@ -60,6 +60,19 @@
 9. 如何做 Agent 可观测性？你会记录哪些 trace 字段？
 10. 如何评估一个 Agent 工作流的成功率？
 
+## Agent 思考 / 决策 / 反馈专项
+
+1. 选一个你做过的 Agent 项目，按 `plan -> route -> tool call -> observe -> evaluate -> retry/stop` 走一遍。
+2. Agent 在什么情况下会选择检索、调用工具、追问用户、人工确认或直接回答？这个决策是谁做的？
+3. 工具调用失败、参数错误、结果低置信度、重复调用时，系统如何决定重试、换工具、降级或停止？
+4. 你们的 trace 里记录哪些字段，能否从一次线上失败回放到具体 plan、tool call、observation 和决策点？
+5. 用户纠正 Agent 的判断后，这个反馈会进入 prompt、长期记忆、评测集、工具约束，还是只记录日志？
+6. 如果 Agent 陷入循环调用，系统如何检测？阈值、状态、审计和人工接管怎么设计？
+7. LLM-as-Judge、RAGAS、人工标注、规则校验分别适合评估哪类失败？怎么避免 Judge 自己不稳定？
+8. 如何把失败样例沉淀成 benchmark，并确保后续 prompt、工具或模型调整没有回归？
+9. 如果一个 Agent 需要跨天执行任务，哪些状态必须持久化？恢复时如何判断上下文、工具结果和外部页面已过期？
+10. 如果只给你一周上线 MVP，你会保留哪些思考/决策/反馈能力，砍掉哪些？
+
 ## Coze / Dify / 工作流平台题
 
 1. Coze/Dify 这类低代码平台适合做哪些节点？哪些逻辑你会坚持自研？
@@ -104,7 +117,7 @@
 - 浏览器登录、抓取、表单操作、内容发布和人工接管。
 - Playwright/Selenium 执行器、截图、DOM 解析、等待策略和异常恢复。
 - 工具注册、权限控制、审计日志和风险操作审批。
-- Agent Runtime、上下文工程、短期/长期记忆和 checkpoint/resume。
+- Agent Runtime、上下文工程、短期/长期记忆、思考/决策/反馈链路和 checkpoint/resume。
 - RAG 素材库、历史案例库、运营知识库的检索、重排和引用。
 - Coze/Dify 快速搭建和自研 LangGraph/Runtime 的边界。
 - 评测指标、线上监控、成本和延迟控制。
@@ -116,6 +129,8 @@
 3. 如果同一账号连续失败 3 次，系统如何降级和保护账号？
 4. 如果老板要求 1 周上线 MVP，你会砍掉哪些功能？
 5. 如果线上成本或封号风险超预算，你先优化哪三个点？
+6. 如果用户纠正了 Agent 的判断，这条反馈如何影响下一轮决策？
+7. 如果 Agent 重复调用同一个工具，如何检测循环并让系统停下来？
 
 ## 简单实操题
 
@@ -127,3 +142,4 @@
 6. 写一个 Playwright 任务伪代码：打开页面 -> 登录态检查 -> 搜索关键词 -> 抽取内容 -> 保存截图和结构化结果。
 7. 设计一个工具 schema：`publish_post(title, body, images, tags, account_id, dry_run)`，说明权限和人工确认。
 8. 设计一个 Agent Runtime trace，至少包含 run_id、step、tool_call、browser_snapshot、approval、checkpoint、error。
+9. 设计一个 Agent 反馈闭环数据结构，至少包含 plan、decision、observation、judge_result、user_feedback、next_action。

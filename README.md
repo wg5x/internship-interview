@@ -26,6 +26,7 @@
 - 浏览器自动化：Playwright、Selenium、网页抓取、自动发布、账号/权限/反爬/风控意识
 - 通用 Agent 平台：Runtime、Harness、工具注册、上下文工程、checkpoint/resume、权限与审计
 - 低代码工作流平台：Coze、Dify、节点编排、插件/工具接入、流程调试
+- Agent 思考 / 决策 / 反馈闭环：plan、route、tool call、observe、evaluate、retry/stop、trace/eval、用户反馈进入记忆或 benchmark
 
 ## 加分项
 
@@ -43,7 +44,7 @@
 ## 当前整理结果
 
 - [面试总览](docs/interview-overview.md)
-- [今日联系清单](docs/today-contact-list.md)
+- [下周联系清单](docs/today-contact-list.md)
 - [候选人联系跟进表](docs/contact-tracking.md)
 - [候选人筛选结果](docs/candidate-screening.md)
 - [面试计划](docs/interview-plan.md)
@@ -54,17 +55,23 @@
 
 ## 优先面试池
 
-按新岗位方向优先约面（2026-06-17，目标 4-6 人）：
+按原岗位方向 + 新增 Agent 思考/决策/反馈口径优先约面（2026-06-22 至 2026-06-26，目标 8-10 场技术一面）：
 
 - 李烨
 - 黄浩男
-- 舒泽林
+- 胡选杰
 - 刘衡
+- 舒泽林
+- 赵绍猛
 - 李夏洋
 - 孙奇
+- 王博涵
+- 周思行
 
 替补 / 方向补充：
 
+- 陈翔宇
+- 侯永欣
 - 刘心怡
 - 戴霖
 - 王泽超
