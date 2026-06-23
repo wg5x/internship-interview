@@ -1,12 +1,13 @@
 # 下周联系清单
 
-日期：2026-06-22 至 2026-06-26
+日期：2026-06-23 至 2026-06-27
 
 ## 使用原则
 
 - 先打“第一轮优先联系”，目标约到 8-10 场技术一面。
 - 原计划第一优先 6 人继续保留：李烨、黄浩男、舒泽林、刘衡、李夏洋、孙奇。
 - 新增要求是验证“Agent 思考、决策、反馈闭环”，不是替代原岗位方向；新增强匹配候选插入同一个优先池。
+- 联系顺序按岗位匹配、项目深度、可验证性和到岗条件排，不按性别排序。
 - `raw/` 中 `～～` 开头的简历是已面试 / 已处理历史，不放入下周新增联系。
 - 打完电话后，把结果回填到 [contact-tracking.md](contact-tracking.md)。
 
@@ -14,16 +15,25 @@
 
 | 顺序 | 候选人 | 电话 | 邮箱 | 主匹配方向 | 联系目标 | 电话里重点确认 |
 | ---: | --- | --- | --- | --- | --- | --- |
-| 1 | 李烨 | 17335610901 | 17335610901@163.com | Claw / 通用 Agent 平台 + RAG | 优先约技术一面 | ClawAgent 是否可讲代码；会话队列、权限审批、审计日志、任务取消和失败复盘是否本人实现。 |
-| 2 | 黄浩男 | 13224672500 | hhn13224672500@163.com | Agent Runtime / Harness / Claw 类平台 | 优先约技术一面 | GitHub 是否可展示；Runtime 主循环、checkpoint、workspace 隔离、benchmark 是否本人实现。 |
-| 3 | 胡选杰 | 13276387009 | 755877147@qq.com | Coding Agent / MCP / 多 Agent | 优先约技术一面 | Coding Agent 是否可讲代码；Plan Mode、ReAct、MCP 工具延迟加载、自动记忆是否本人实现。 |
-| 4 | 刘衡 | 13708800655 | 453093656@qq.com | 浏览器自动运营 Agent + OpenClaw | 优先约技术一面 | Playwright 小红书流程是否真实；登录态、反爬、自动发布、人工审核边界怎么做。 |
-| 5 | 舒泽林 | 17508510706 | 857824448@qq.com | 桌面 / 浏览器自动化 Agent | 优先约技术一面 | AirJelly 是否可讲 demo；截图理解、主动触发、Task 归属、记忆模块是否本人实现。 |
-| 6 | 赵绍猛 | 15713380988 | 15713380988@163.com | AIOps Agent Harness / 工具治理 | 优先约技术一面 | Harness 是否自研；工具权限、参数校验、失败重试、防无限 ReAct loop 是否有代码。 |
-| 7 | 李夏洋 | 15518794255 | 15518794255@163.com | Agent Runtime / 通用平台 | 约技术一面或补位 | Mira Runtime 是否可画架构；Tool/Skill、状态机、上下文压缩、会话恢复是否本人实现。 |
-| 8 | 孙奇 | 18405675136 | 1446437177@qq.com | OpenClaw / 工具平台 / 工作流 | 约技术一面或补位 | OpenClaw 插件、网页截图、40+ 工具、长期记忆和权限隔离是否可展开讲。 |
-| 9 | 王博涵 | 18991120513 | 1433340920@qq.com | Agentic RAG / 评测闭环 | 约技术一面或补位 | Routing、Grading、Self-Reflection、RAGAS、Tool Calling Success Rate 是否可讲代码和数据。 |
-| 10 | 周思行 | 13350756085 | ananadyzhou@gmail.com | 多 Agent 路由 / Monitor 闭环 | 约技术一面或补位 | Monitor 闭环、LLM-as-Judge、工具熔断、路由惩罚因子是否本人实现。 |
+| 1 | 李昊泽 | 18391892833 | lihaoze1108@163.com | Coding Agent / Harness / Runtime | 新增强候选补位 | CodeRein 是否可讲代码；Runtime 主循环、ToolExecutor 执行域、checkpoint 和 benchmark 是否本人实现。 |
+| 2 | 方浩 | 19121759781 | haofang@csu.edu.cn | OnCall Agent / Coding Agent / MCP | 新增强候选补位 | Query Loop、自进化记忆、多 Agent 权限边界、人工确认链路是否本人实现。 |
+| 3 | 廖月华 | 18526276078 | 1102905604@qq.com | ChatBI 多 Agent / MCP / ReAct 重试 | 新增强候选补位 | 路由 Agent、MCP Server、SQL 自动修正和 100 条评测是否可展开讲。 |
+| 4 | 王悦 | 13819100076 |  | 主动式 Agent / MCP / 记忆系统 | 新增强候选补位 | 5 阶段推送决策、记忆审计任务、热点监控多层过滤和 AI 分析是否真实。 |
+| 5 | 朱坤 | 13862433994 | alan_root@outlook.com | MCP 网关 / Multi-Agent / RAG | 新增强候选补位 | MCP 网关、Supervisor-Worker、多层记忆、TraceID / 指标链路是否可展开讲。 |
+| 6 | 安晨阳 | 13721337093 | 17203818108@163.com | 多 Agent 深度研究 / GraphRAG | 新增强候选补位 | 实习职责、DeepFlow 主从 Agent、StateGraph 路由和 RAGAS 评测是否真实。 |
+| 7 | 赵柄州 | 15882262537 | bingzhou823@qq.com | 多 Agent 菜谱客服 / GraphRAG | 新增强候选补位 | Router 准确率、条件边、GraphRAG 落地和真实代码。 |
+| 8 | 雷君帆 | 16627609675 | 2137601181@qq.com | 扫地机器人客服 / ReAct + 三层记忆 | 新增强候选补位 | 三层记忆、工具路由、TTL/importance 衰减和 RAGAS 指标来源。 |
+| 9 | 王基宽 | 16630027860 | 16630027860@163.com | 心理健康多 Agent / SSE / Docker | 新增强候选补位 | RiskGuardian 触发逻辑、长期档案更新和风险预警工具链。 |
+| 10 | 李烨 | 17335610901 | 17335610901@163.com | Claw / 通用 Agent 平台 + RAG | 优先约技术一面 | ClawAgent 是否可讲代码；会话队列、权限审批、审计日志、任务取消和失败复盘是否本人实现。 |
+| 11 | 黄浩男 | 13224672500 | hhn13224672500@163.com | Agent Runtime / Harness / Claw 类平台 | 优先约技术一面 | GitHub 是否可展示；Runtime 主循环、checkpoint、workspace 隔离、benchmark 是否本人实现。 |
+| 12 | 胡选杰 | 13276387009 | 755877147@qq.com | Coding Agent / MCP / 多 Agent | 优先约技术一面 | Coding Agent 是否可讲代码；Plan Mode、ReAct、MCP 工具延迟加载、自动记忆是否本人实现。 |
+| 13 | 刘衡 | 13708800655 | 453093656@qq.com | 浏览器自动运营 Agent + OpenClaw | 优先约技术一面 | Playwright 小红书流程是否真实；登录态、反爬、自动发布、人工审核边界怎么做。 |
+| 14 | 舒泽林 | 17508510706 | 857824448@qq.com | 桌面 / 浏览器自动化 Agent | 优先约技术一面 | AirJelly 是否可讲 demo；截图理解、主动触发、Task 归属、记忆模块是否本人实现。 |
+| 15 | 赵绍猛 | 15713380988 | 15713380988@163.com | AIOps Agent Harness / 工具治理 | 优先约技术一面 | Harness 是否自研；工具权限、参数校验、失败重试、防无限 ReAct loop 是否有代码。 |
+| 16 | 李夏洋 | 15518794255 | 15518794255@163.com | Agent Runtime / 通用平台 | 约技术一面或补位 | Mira Runtime 是否可画架构；Tool/Skill、状态机、上下文压缩、会话恢复是否本人实现。 |
+| 17 | 孙奇 | 18405675136 | 1446437177@qq.com | OpenClaw / 工具平台 / 工作流 | 约技术一面或补位 | OpenClaw 插件、网页截图、40+ 工具、长期记忆和权限隔离是否可展开讲。 |
+| 18 | 王博涵 | 18991120513 | 1433340920@qq.com | Agentic RAG / 评测闭环 | 约技术一面或补位 | Routing、Grading、Self-Reflection、RAGAS、Tool Calling Success Rate 是否可讲代码和数据。 |
+| 19 | 周思行 | 13350756085 | ananadyzhou@gmail.com | 多 Agent 路由 / Monitor 闭环 | 约技术一面或补位 | Monitor 闭环、LLM-as-Judge、工具熔断、路由惩罚因子是否本人实现。 |
 
 ## 第二轮补位联系
 

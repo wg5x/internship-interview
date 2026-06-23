@@ -92,6 +92,23 @@
 | 李子昊 | `附件简历-李子昊-后端开发-29年应届生.pdf` | Agent Loop、MCP、短期/长期记忆、四层上下文压缩、Orchestrator、多 Agent 协作、RAG-MCP 和 PR Copilot 两层 DAG 规划都比较贴“思考/决策/反馈”口径。 | 强初筛或技术一面，重点问 Orchestrator、DAG 任务规划、maxRetries=2、失败降级、Golden Test Set 和 RAGAS。 |
 | 来淼鑫 | `来淼鑫简历.pdf` | 多 Agent 医疗临床辅助决策系统写到 5-Agent Pipeline、LangGraph StateGraph 条件路由、ClinicalState 共享状态、信息不足自动回退接诊 Agent，思考/决策链路比较明确。 | 强初筛或技术一面，重点问条件路由、共享状态模型、误诊率 15% 口径、ICD-10 工具接口和测试覆盖。 |
 | 雷剑 | `雷剑-实习简历-27应届生.pdf` | LangGraph + FastMCP 出行 ReAct Agent、stdio/SSE、本地工具服务、多用户上下文隔离、RAGAS 评估，工程表达比较完整。 | 强初筛或技术一面，重点问 FastMCP、会话隔离、全链路异步、RAGAS 评估和新增工具接入效率 90% 的计算方式。 |
+| 李昊泽 | `李昊泽-AI Agent开发工程师.pdf` | CodeRein 本地代码 Agent 覆盖 Agent Harness、Runtime、Plan Mode、Todo Ledger、Checkpoint/Resume、执行域隔离、审计和 benchmark，岗位匹配度很高。 | 强初筛或直接技术一面，重点问 Runtime 主循环、ToolExecutor 执行域、workspace 漂移恢复和 224 个 pytest / 50 个真实场景评测。 |
+| 方浩 | `方浩_Agent 应用开发实习_中南大学硕士_简历.pdf` | Oncall Agent + Minicode 同时覆盖多 MCP、自进化记忆、上下文压缩、多 Agent 协作和安全审查，贴近 Agent 平台和工作流。 | 强初筛或技术一面，重点问 Query Loop、自进化记忆闭环、多 Agent 权限边界和人工确认链路。 |
+| 廖月华 | `agent开发简历-廖月华.pdf` | ChatBI 多 Agent 协作、LangGraph 条件边路由、MCP Server 封装、ReAct 自动重试和 100 条评测闭环，技术链路清晰。 | 强初筛或技术一面，重点问路由 Agent 输出结构、MCP Server 接入边界、SQL 自动修正和评测集构成。 |
+| 王悦 | `王悦_agent_1.pdf` | 主动式个人 AI 助手写到 6 阶段生命周期、5 阶段推送决策、五层记忆、MCP 并行拉取和后台任务框架，决策/反馈链路明确。 | 强初筛，重点问主动推送策略、去重机制、记忆审计任务和热点监控闭环。 |
+| 朱坤 | `简历_朱坤.pdf` | MCP Nexus 协议网关 + Web3 Multi-Agent，覆盖多协议工具包装、限流熔断、TraceID、Supervisor-Worker、多层记忆和 RAG 双通道。 | 强初筛，重点问 MCP 网关抽象层、熔断与校验、Supervisor-Worker 状态一致性和 RAG 双通道效果。 |
+| 安晨阳 | `安晨阳 13721337093 Agent应用开发.pdf` | 有云问 Agent 应用实习和 DeepFlow 多 Agent 研究平台，LangGraph/StateGraph、GraphRAG、RAGAS、Coze/Dify 都覆盖。 | 30 分钟初筛或技术一面补位，重点问实际实习职责、DeepFlow 主从 Agent 架构和评测闭环。 |
+| 赵柄州 | `agent实习简历-赵柄州.pdf` | 多 Agent 菜谱客服用了 Router + 多下游 Agent、GraphRAG/Text2Cypher/Text2SQL 和 Docker，工作流设计较清楚。 | 30 分钟初筛，重点问 Router 准确率、GraphRAG 落地、条件边和真实代码。 |
+| 雷君帆 | `Ageng应用开发.pdf` | 扫地机器人客服覆盖 ReAct、自主工具调用、三层记忆、混合检索和 RAG 全链路评测，工程表达尚可。 | 30 分钟初筛，重点问三层记忆、工具路由、TTL/importance 衰减和 RAGAS 指标来源。 |
+| 王基宽 | `电子科技大学-王基宽.pdf` | 校园心理健康多 Agent 平台覆盖 LangGraph Supervisor 协作、双层记忆、Function Calling、SSE 和 Docker。 | 30 分钟初筛，重点问 RiskGuardian 触发逻辑、长期档案更新和风险预警工具链。 |
+| 刘亚津 | `吉林大学_刘亚津个人简历.pdf` | 本地知识库 ReAct Agent + RAG 项目较完整，但更偏单 Agent 应用；另有 LoRA 训练背景。 | 低优先初筛，重点问 Evidence 引用、search_local_kb 工具、ReAct 决策和 LoRA 实操。 |
+| 赵浩博 | `北京交通大学赵浩博.pdf` | 扫地机器人 RAG Agent 覆盖工具调用日志、动态 Prompt 切换和场景切换，属于基础可用型。 | 低优先初筛，重点问工具调用日志、中间件动态 Prompt 和报告生成链路。 |
+| 韦沐池 | `韦沐池个人简历.pdf` | AIOps 调研 + 日志故障诊断 RAG，偏运维 / RAG 方向，有 LoRA 实操。 | 低优先初筛，重点问日志解析、诊断生成链路、LoRA 细节和是否有 Agent 决策闭环。 |
+| 苏伊童 | `附件简历-苏伊童-26年应届生.pdf` | 训练 / 后训练能力较强，但 Agent / 工作流 / RAG 主线证据弱。 | 作为训练加分候选保留，不进入当前主岗优先面试。 |
+| tai-jinxue | `tai-jinxue (ai-agent).pdf` | 文本能抽到 LangGraph / Checkpointer / LangSmith / 评测等关键词，但姓名、联系方式和项目边界抽取不稳定。 | 暂不推进，需人工打开确认。 |
+| 于彤 | `于彤-15595168711.pdf` | 当前 PDF 文本抽取基本不可读，无法可靠判断。 | 暂不推进，需人工打开确认。 |
+| 未知（ai简历） | `ai简历.pdf` | 当前 PDF 文本抽取基本不可读，无法可靠判断。 | 暂不推进，需人工打开确认。 |
+| 未知（求职简历-Agent开发实习生） | `求职简历-Agent开发实习生.pdf` | 当前 PDF 文本抽取基本不可读，无法可靠判断。 | 暂不推进，需人工打开确认。 |
 | 邢耀文 | `邢耀文的简历.pdf` | AI CodeReview、AI 友好型项目、团队知识库、短期/长期记忆和 RAG，反馈意识有，但通用 Agent Runtime 证据少。 | 30 分钟初筛，问 AI CR 分类、AIReadMe 上下文资产和真实代码。 |
 | 牛韦杰 | `简历_副本.pdf` | 航发工业 RAG，证据追溯、测试清单、问题归因较好，更偏 RAG 评测和工业知识库。 | 30 分钟初筛，问 800+ 测试问题、召回片段记录和业务专家校验闭环。 |
 | 郝海程 | `个人简历_副本.pdf` | GraphRAG、DeepAgents、SFT、vLLM、Coze/Dify 都覆盖，但简历表述偏满，需要核实。 | 30 分钟初筛，问 GraphRAG 多跳推理、DeepAgents 调用链、SFT 数据和部署证据。 |
