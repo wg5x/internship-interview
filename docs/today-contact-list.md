@@ -53,10 +53,34 @@
 | 12 | 高敬杰 | 13483000182 | 3077618869@qq.com | Go/Eino Agent 后端 | Go/后端 Agent 补位 | Eino、Gemini Function Calling、MCP、Milvus/MySQL 分层记忆是否可讲。 |
 | 13 | 邓靖俊 | 13541043150 | jingjun_deng@qq.com | RAG + LangGraph Agent | RAG/应用 Agent 补位 | GitHub 是否可看；ReAct 工具上限、QLoRA 数据、SqliteSaver checkpoint。 |
 
+## 2026-06-23 追加批次强初筛
+
+说明：这批是最新补充简历。岗位匹配优先；同档位里女生候选已尽量前置。建议在第一轮前 19 人和第二轮补位联系不够时，从这里继续补。
+
+| 顺序 | 候选人 | 电话 | 邮箱 | 主匹配方向 | 适合用途 | 电话里重点确认 |
+| ---: | --- | --- | --- | --- | --- | --- |
+| 1 | 冯慧 | 15002602703 | fenghui@bupt.edu.cn | AIOps Agent / LangGraph / MCP | 强初筛或技术一面 | Plan-Execute-Replan 状态机、MCP 日志/监控工具、重试停止条件和个人代码范围。 |
+| 2 | 李家璇 | 15036583295 | Lijiaxuan@henu.edu.cn | Agentic Knowledge Hub / Dify 客服 Agent | 强初筛 | RAG 查询增强、混合召回、Agent 任务拆解、Dify 与自研后端边界。 |
+| 3 | 刘锐 | 18214794197 | 2196290715@qq.com | 多 Agent 审查 / Playwright / RPA | 强初筛或技术一面 | Supervisor-Worker 审查流程、Playwright 信用调查、RPA 自动填报、ReAct 自纠错是否本人实现。 |
+| 4 | 李鑫 | 19862255726 | znnn2004@163.com | Medical Agent Swarm / MCP / RAGAS | 强初筛或技术一面 | Skills-Agent 双层架构、Agent Loop、Swarm 路由、双层记忆和 LangFuse trace。 |
+| 5 | 周升 | 13476527154 | 13476527154@163.com | Plan-Execute-Reflection 多 Agent / RAGAS | 强初筛 | 反思 Agent 校验标准、气象工具 API 超时降级、Memory 复用和 RAGAS 指标。 |
+| 6 | 刘少波 | 18826340457 | 2505632210@qq.com | 多 Agent 农业决策 / KG + RAG / QLoRA | 强初筛 | 四类 Agent 动态路由、Checkpoint 恢复、IoT 数据注入、Cypher 查询和 QLoRA 数据。 |
+| 7 | 陈学志 | 15338571351 | a35661353@163.com | Windows 操控 Agent / VLM / RAG | 强初筛 | 屏幕理解、UI 元素库、Win32/UI Automation 执行失败反馈和安全边界。 |
+| 8 | 赵景博 | 15703278840 | 3323076514@qq.com | DAG Agent Runtime / GraphRAG / Harness | 强初筛 | DAG 拆分、拓扑调度、Tool Isolation、三层记忆和 RAGAS/NDCG benchmark。 |
+| 9 | 管瑞阳 | 18535918722 | 3219402441@qq.com | DeepAgents / 企业 RAG / LangGraph | 强初筛或补位 | DeepAgents 链路、ContextVar 隔离、异步任务推送和报告生成链路。 |
+| 10 | 胡景晟 | 16639239639 | 3573851322@qq.com | 轻量 Agent 编排 / Tool / Memory | 30 分钟强初筛 | GitHub 是否可看；Planning -> Tool Use -> Memory -> Output 是否自研，Pydantic 校验如何拦截错误。 |
+
 ## 低优先初筛
 
 | 候选人 | 电话 | 邮箱 | 判断 |
 | --- | --- | --- | --- |
+| 李炎铭 | 17877388141 | yuliu666666@outlook.com | RPA/后端强，做过小红书、抖音、电商 B/C 端数据采集、处理、发布，先确认是否能补 Agent 决策层。 |
+| 刘聪志 | 18336136469 | 948290202@qq.com | Function Calling 工具白名单、重试和 LangGraph 深度研究，偏应用层。 |
+| 张文元 | 13087078935 | 1227696033@qq.com | QQ Bot + RAG 长期记忆 + Playwright 网页爬取，偏群聊助手。 |
+| 温博 | 19703315953 | 2635658259@qq.com | AI 面试助手，有意图识别、有限状态机、混合检索和总评闭环。 |
+| 王欣宇 | 15751850865 |  | 水利/GIS 知识库、知识图谱、智能体，女生候选但主岗匹配一般。 |
+| 刘佳璇 | 13581782917 | jiaxuanliuu@163.com | 北航拟入学，Coze 工作流应用，Agent 深度需确认。 |
+| 黄广荣 | 19121679976 | 876058443@qq.com | UCAS 硕士，企业知识库 RAG 完整，更偏 RAG 补位。 |
 | 邢耀文 | 18553583536 | 709450270@qq.com | AI CR 和知识库反馈意识有，先确认代码真实性。 |
 | 牛韦杰 | 18735634480 | 1071294398@qq.com | 工业 RAG 评测和证据追溯不错，更偏 RAG 工程。 |
 | 郝海程 | 18864771568 | 2020104216@qq.com | GraphRAG / DeepAgents / SFT / vLLM 都覆盖，但需核实真实性。 |

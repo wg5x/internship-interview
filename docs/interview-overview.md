@@ -4,7 +4,7 @@
 
 这份文档作为当前唯一入口。日常先看这里；排期看 [interview-plan.md](interview-plan.md)，打电话和记录进展时再打开 [contact-tracking.md](contact-tracking.md)。
 
-补充：2026-06-23 又新增一批文件。已初步并入当前筛选口径：李昊泽、方浩、廖月华、王悦、朱坤进入新增补位 / 强初筛；安晨阳、赵柄州、雷君帆、王基宽进入低优先初筛；`tai-jinxue (ai-agent).pdf`、`于彤-15595168711.pdf`、`ai简历.pdf`、`求职简历-Agent开发实习生.pdf` 仍需人工打开确认。
+补充：2026-06-23 已有两批新增简历并入当前筛选口径。前一批中李昊泽、方浩、廖月华、王悦、朱坤进入新增补位 / 强初筛；最新追加批次中冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟进入强初筛 / 技术一面补位。排序仍按岗位匹配优先；同档位里女生候选尽量前置。
 
 ## 1. 面试要求
 
@@ -110,6 +110,21 @@
 | 韦沐池 | `韦沐池个人简历.pdf` | AIOps 调研 / 故障诊断 RAG | AIOps 调研和日志故障诊断 RAG，偏运维 / RAG 方向，有 LoRA 实操。 | 追问日志解析、诊断生成链路、LoRA 细节和是否有 Agent 决策闭环。 |
 | 苏伊童 | `附件简历-苏伊童-26年应届生.pdf` | 训练 / 后训练 | 训练 / 后训练能力较强，但 Agent / 工作流 / RAG 主线证据弱。 | 仅在需要训练加分项时补聊，不进当前主岗优先面试。 |
 
+### 2026-06-23 追加批次强初筛
+
+| 候选人 | 简历文件 | 方向 | 为什么关注 | 面试重点 |
+| --- | --- | --- | --- | --- |
+| 冯慧 | `冯慧_简历 (11).pdf` | AIOps Agent / LangGraph / MCP | 北邮本硕，智能运维知识库 Agent 平台覆盖 Plan-Execute-Replan、MCP、RAG、SSE 和重试机制。 | 追问 AIOps 状态机、MCP 工具封装、重试停止条件和个人代码范围。 |
+| 李家璇 | `李家璇简历.pdf` | Agentic Knowledge Hub / Dify 客服 Agent | Agentic Knowledge Hub 与 AgentFlow 客服平台覆盖 RAG 多阶段检索、Agent 任务拆解和 Dify 工作流。 | 追问混合召回、Agent 任务拆解、Dify 与自研后端边界。 |
+| 刘锐 | `agent简历.pdf` | 多 Agent 审查 / Playwright / RPA | 供应商资质联合审查覆盖 LangGraph 多 Agent、OCR/RAG/Text-to-SQL、Playwright 信用调查和 RPA 自动填报。 | 追问 Supervisor-Worker、Playwright/RPA 调用边界、ReAct 自纠错和人工审批接管。 |
+| 李鑫 | `李鑫_19862255726.pdf` | Agent Swarm / MCP / RAGAS | 医疗问答 Skills-Agent 双层架构、ReAct、Swarm、双层记忆；教学系统覆盖 LangGraph、MCP、RAGAS、LangFuse。 | 追问 Agent Loop、Swarm 路由、工具调用限制、记忆压缩和反思节点评测。 |
+| 周升 | `周升__大模型应用开发_2027届.pdf` | Plan-Execute-Reflection 多 Agent / RAGAS | 气象 SkyNexus 多 Agent 系统覆盖三层协作、ReAct、多轮反思、Memory 和标准化工具 API。 | 追问反思 Agent 校验、工具 API 超时降级、Memory 复用和 RAGAS 指标。 |
+| 刘少波 | `刘少波-简历.pdf` | 农业多 Agent / KG + RAG / QLoRA | 智能果园辅助决策覆盖 StateGraph、条件边、checkpoint、IoT 数据注入、KG + RAG 和 QLoRA。 | 追问四类 Agent 路由、Checkpoint 恢复、IoT 数据如何影响决策和 Cypher 查询。 |
+| 陈学志 | `简历_副本2.pdf` | Windows 操控 Agent / VLM / RAG | RAG + VLM + Win32 API / UI Automation 的 Windows 图形界面操控 Agent，适合自动化补位。 | 追问屏幕理解、UI 元素库、执行失败反馈和安全边界。 |
+| 赵景博 | `赵景博-Java全栈开发工程师-27年应届生.pdf` | DAG Runtime / GraphRAG / Harness | AGI Assistant 覆盖 DAG Agent Workflow Runtime、三层记忆、GraphRAG、Harness 容错和 RAGAS benchmark。 | 追问 DAG runtime、拓扑调度、Tool Isolation、记忆去重演化和 benchmark。 |
+| 管瑞阳 | `简历 (1).pdf` | DeepAgents / 企业 RAG / LangGraph | 企业 RAG 与 DeepAgents 深度搜索项目覆盖 LangGraph、RAGFlow、FastAPI、WebSocket 和 ContextVar 隔离。 | 追问 DeepAgents 链路、上下文隔离、异步任务推送和报告生成。 |
+| 胡景晟 | `resume.pdf` | 轻量 Agent 编排 / Tool / Memory | 独立开发 AgentOrchestrator，写到 Planning -> Tool Use -> Memory -> Output、asyncio、Pydantic 校验和 SSE。 | 追问 GitHub 代码、自研边界、Memory 设计和工具错误拦截。 |
+
 ### 已面试 / 已处理历史
 
 `raw/` 中 `～～` 开头的简历视为已面试 / 已处理历史，不进入下周新增联系。
@@ -126,7 +141,7 @@
 1. 周一先打 P0 前 10 人；原计划第一优先 6 人不能丢，新增候选作为同池竞争。
 2. 每通电话都确认到岗时间、每周天数、可持续月数、是否能讲代码/GitHub/demo。
 3. 技术面统一追加“Agent 思考、决策、反馈”追问，不单独作为一个新岗位。
-4. 如果 P0 里约不到 6 场，就从 P1 和“2026-06-23 新增补位”里按顺序补：李昊泽、方浩、廖月华、王悦、朱坤、陈翔宇、侯永欣、李子昊、来淼鑫、雷剑。
+4. 如果 P0 里约不到 6 场，就从 P1 和新增补位里按顺序补：李昊泽、方浩、廖月华、王悦、朱坤、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈翔宇、侯永欣。
 5. 每通电话后立即回填 [contact-tracking.md](contact-tracking.md)。
 6. 若有 3-5 人一面表现好，周五前安排设计实操或二面。
 

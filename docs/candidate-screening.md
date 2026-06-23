@@ -118,6 +118,49 @@
 | 黄可心 | `黄可心-北理工28届-agent开发.pdf` | 当前 PDF 文本抽取基本不可读，无法可靠判断。 | 暂不推进，需人工打开确认。 |
 | 刘源哲 | `附件简历-刘源哲-agent应用开发工程师-28年应届生.pdf` | PDF 文本抽取基本不可读，无法可靠判断。 | 暂不排核心面试，需人工打开确认。 |
 
+## 2026-06-23 追加简历整理
+
+说明：本批新增 23 份 PDF。排序原则是岗位匹配优先；同档位、匹配度接近时，女生候选尽量前置。`agent简历.pdf`、`简历 (1).pdf`、`简历_副本2.pdf` 文本抽取不完整，已用 PDF 缩略图确认姓名与关键信息。
+
+### 强初筛 / 技术一面补位
+
+| 候选人 | 简历文件 | 判断 | 建议动作 |
+| --- | --- | --- | --- |
+| 冯慧 | `冯慧_简历 (11).pdf` | 北邮本硕，AI Agent / 后端方向，智能运维知识库 Agent 平台覆盖 LangGraph、Plan-Execute-Replan、MCP、RAG、SSE、指数退避重试；到岗和 3-6 个月实习条件清晰。 | 强初筛或技术一面，重点问 AIOps 状态机、MCP 工具封装、重试停止条件、会话记忆和个人代码范围。 |
+| 李家璇 | `李家璇简历.pdf` | 河南大学硕士，Agentic Knowledge Hub 与 AgentFlow 客服平台覆盖 LangChain、ChromaDB、SSE、Ollama、Agent 任务拆解、Dify 工作流、RAG 多阶段检索。 | 强初筛，重点问 RAG 查询增强、混合召回、Agent 任务拆解、Dify 与自研后端边界。 |
+| 刘锐 | `agent简历.pdf` | 东北林业大学硕士，供应商资质联合审查项目覆盖 LangGraph 多 Agent、Qdrant RAG、PaddleOCR、Text-to-SQL、Playwright 信用调查和 ReAct 自纠错；另有政府审批 RPA。 | 强初筛或技术一面，重点问 Playwright/RPA 调用边界、Supervisor-Worker 协作、ReAct 纠错和人工审批接管。 |
+| 李鑫 | `李鑫_19862255726.pdf` | 医疗问答 Skills-Agent 双层架构写到 7 个 Skills、3 类 Agent、ReAct Think-Act-Observe、Agent Swarm、双层记忆和 Harness 约束；教学系统还有 LangGraph、MCP、RAGAS、LLM-as-Judge、LangFuse trace。 | 强初筛或技术一面，重点问 Agent Loop、Swarm 路由、工具调用 2 次限制、记忆压缩和反思节点评测。 |
+| 周升 | `周升__大模型应用开发_2027届.pdf` | 气象 SkyNexus 多 Agent 系统覆盖 Plan-Execute-Reflection、ReAct、多轮反思、Memory、标准化工具 API、LoRA 和 RAGAS；另有企业短信知识库 RAG。 | 强初筛，重点问三层 Agent 协作、反思 Agent 校验标准、工具 API 超时降级、RAGAS 指标来源。 |
+| 刘少波 | `刘少波-简历.pdf` | 云南大学硕士，大模型应用实习做智能果园辅助决策，多 Agent 调度、StateGraph、条件边、checkpoint、IoT 数据注入、KG + RAG、QLoRA 都覆盖。 | 强初筛，重点问四类 Agent 路由、Checkpoint 恢复、IoT 数据如何影响决策、Cypher 查询和 QLoRA 数据。 |
+| 陈学志 | `简历_副本2.pdf` | 北京联合大学，Windows 操控 Agent 覆盖 RAG、VLM、Win32 API / UI Automation、跨应用操作、意图澄清和记忆；另有分布式爬虫和反爬处理。 | 强初筛，适合作为桌面/浏览器自动化补位；重点问屏幕理解、UI 元素库、执行失败反馈和安全边界。 |
+| 赵景博 | `赵景博-Java全栈开发工程师-27年应届生.pdf` | AGI Assistant 覆盖 Hybrid RAG、GraphRAG、DAG Agent Workflow Runtime、三层记忆、Harness 容错执行、RAGAS / NDCG benchmark。 | 强初筛，重点问 DAG runtime、拓扑调度、Tool Isolation、三层记忆去重演化和 benchmark。 |
+| 管瑞阳 | `简历 (1).pdf` | 企业智能问答和 DeepAgents 深度搜索项目覆盖 LangGraph、DeepAgents、RAGFlow、FastAPI、WebSocket、ContextVar 隔离、Markdown/PDF 文档生成。 | 强初筛或补位，重点问 DeepAgents 链路、上下文隔离、异步任务推送和检索结果汇总。 |
+| 胡景晟 | `resume.pdf` | 独立开发 AgentOrchestrator，写到 Planning -> Tool Use -> Memory -> Output、自实现轻量编排、asyncio、Pydantic 输入输出校验、SSE。 | 30 分钟强初筛，重点看 GitHub 代码、Agent 编排是否真实、Memory 设计和工具错误如何拦截。 |
+
+### 低优先初筛 / 方向补充
+
+| 候选人 | 简历文件 | 判断 | 建议动作 |
+| --- | --- | --- | --- |
+| 李炎铭 | `Golang-李炎铭.pdf` | Go 后端能力强，实习做过小红书、抖音、生意参谋、巨量千川等社媒/电商平台 RPA 测开和数据采集、处理、发布；LLM Agent 证据弱。 | 作为浏览器/RPA 自动化方向 30 分钟初筛，重点问登录态、页面变化、自动发布边界和是否能补 Agent 决策层。 |
+| 刘聪志 | `刘聪志简历.pdf` | 旅行助手桌面应用有 Function Calling、工具白名单、错误重试和 UI 异步推送；深度研究系统有 LangGraph 四角色协作、Reviewer 循环检索和 RRF。 | 30 分钟初筛，重点问工具选择、最多重试 2 次、Reviewer 不通过如何循环和执行轨迹。 |
+| 张文元 | `张文元的简历 (6).pdf` | QQ Bot 覆盖 RAG 长期记忆、Playwright 网页爬取、Skill 命令框架、Prompt 注入防护和上下文管理；整体偏群聊助手。 | 30 分钟初筛，重点问 Playwright 网页记忆、命令路由、安全防护和代码真实性。 |
+| 温博 | `温博-实习简历.pdf` | AI 面试准备助手覆盖 LangChain Agent、六类意图识别、有限状态机、混合检索 + Rerank、追问和总评闭环。 | 低优先初筛，重点问状态机、追问触发、LLM 失败兜底和 RAG 评测。 |
+| 王欣宇 | `王欣宇简历.pdf` | 河海大学硕士，山洪防御知识库/知识图谱/智能体、模型蒸馏和电商知识图谱，偏 GIS/水利 AI 应用，主岗匹配一般。 | 低优先初筛，若需要女生候选补充可联系；重点问智能体设计全过程、知识图谱和蒸馏是否真实。 |
+| 刘佳璇 | `计算机科学与技术刘佳璇.pdf` | 云南大学本科第一，已获北航硕士入学名额；Coze 工作流用于留学生预习 App，但 Agent 深度证据较少。 | 低优先初筛，重点问 Coze 节点拆分、后端统一调度和可实习周期。 |
+| 黄广荣 | `中国科学院大学-黄广荣简历.pdf` | UCAS 硕士，企业知识库 RAG 覆盖 LangGraph、Milvus、HyDE、知识图谱查询、Web 搜索、RRF、reranker、SSE；更偏 RAG。 | 低优先初筛，重点问查询工作流、KG + Web 搜索融合和评测方式。 |
+| 李士博 | `李士博求职实习简历.pdf` | 扫地机器人智能客服 Agent + RAG 知识库，覆盖 7+ 工具、Chroma、Streamlit、日志和提示词切换；联系方式未在文本/封面中抽到。 | 低优先，需先人工补联系方式；重点问工具自动选择、报告生成和可观测性。 |
+| 徐阳阳 | `徐阳阳_吉大硕士_后端实习_17856199426.pdf` | 吉林大学硕士，算法和 Go 后端强，有 LLM 冗余推理抑制、LoRA/全参微调、lm-evaluation-harness 评估；缺少 Agent/RAG 应用证据。 | 作为训练/后训练加分候选保留，不进入当前主岗优先。 |
+
+### 暂缓
+
+| 候选人 | 简历文件 | 原因 |
+| --- | --- | --- |
+| 王天逸 | `王天逸简历.pdf` | 主要是 AI 工具使用和基础实习描述，缺少可验证的 Agent/RAG/工作流项目。 |
+| 孟凡舟 | `简历_副本3.pdf` | 偏软件测试和信息系统，和当前 Agent/RAG/工作流主线不匹配。 |
+| 盛中理 | `简历（修改）.pdf` | 通信、网络和 DSP 项目为主，缺少 LLM Agent/RAG 证据。 |
+| 罗心如 | `罗心如简历.pdf` | 异常检测、图像跟踪/分割方向，缺少当前岗位主线项目。 |
+| 未知 | `agent简历.pdf` | 文本抽取不可读，但缩略图已确认实际候选人为刘锐，已在强初筛中记录。 |
+
 ## 原方向补充候选（2026-06-17，保留参考）
 
 | 候选人 | 简历文件 | 适合方向 | 判断 | 建议动作 |
