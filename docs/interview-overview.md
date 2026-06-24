@@ -1,10 +1,10 @@
 # 面试总览
 
-更新日期：2026-06-23
+更新日期：2026-06-24
 
 这份文档作为当前唯一入口。日常先看这里；排期看 [interview-plan.md](interview-plan.md)，打电话和记录进展时再打开 [contact-tracking.md](contact-tracking.md)。
 
-补充：2026-06-23 已有两批新增简历并入当前筛选口径。前一批中李昊泽、方浩、廖月华、王悦、朱坤进入新增补位 / 强初筛；最新追加批次中冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟进入强初筛 / 技术一面补位。排序仍按岗位匹配优先；同档位里女生候选尽量前置。
+补充：2026-06-24 已有三批新增简历并入当前筛选口径。前两批中李昊泽、方浩、廖月华、王悦、朱坤、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟进入新增补位 / 强初筛；最新一批中曲仁宏、王俊豪、李正筱、王政浩、马克福、邵煜、陈康、徐耀鹏进入强初筛 / 技术一面补位，胡平、马志宇留作低优先初筛，杜浩东、刘盼盼、甄锐暂缓。`HS6...docx` 是问卷，不纳入候选人池。排序仍按岗位匹配优先；同档位里女生候选尽量前置。
 
 ## 1. 面试要求
 
@@ -125,6 +125,26 @@
 | 管瑞阳 | `简历 (1).pdf` | DeepAgents / 企业 RAG / LangGraph | 企业 RAG 与 DeepAgents 深度搜索项目覆盖 LangGraph、RAGFlow、FastAPI、WebSocket 和 ContextVar 隔离。 | 追问 DeepAgents 链路、上下文隔离、异步任务推送和报告生成。 |
 | 胡景晟 | `resume.pdf` | 轻量 Agent 编排 / Tool / Memory | 独立开发 AgentOrchestrator，写到 Planning -> Tool Use -> Memory -> Output、asyncio、Pydantic 校验和 SSE。 | 追问 GitHub 代码、自研边界、Memory 设计和工具错误拦截。 |
 
+### 2026-06-24 追加批次强初筛
+
+| 候选人 | 简历文件 | 方向 | 为什么关注 | 面试重点 |
+| --- | --- | --- | --- | --- |
+| 曲仁宏 | `曲.pdf` | AI Agent / AI Infra | HChat + HRPC 体现分布式 RPC、网关、聊天与状态服务，基础设施味道很强。 | 问服务拆分、RPC 注册发现、并发模型和个人负责范围。 |
+| 李正筱 | `李正筱求职.pdf` | Coding Agent / Harness / Runtime | 本地代码 Agent Harness 覆盖 Redis TTL、checkpoint / resume、4 模型后端、7 工具。 | 问 Orchestrator、工具调度、失败回滚、记忆和上下文压缩。 |
+| 王政浩 | `王政浩简历(2).pdf` | Coding Agent / Context Compression | minicodAI 从零构建 Agent 系统，覆盖 ReAct 循环、流式输出、双后端切换和子 Agent 沙箱。 | 问 context 压缩、沙箱隔离、读后写锁和断点续跑。 |
+| 王俊豪 | `最终修改简历！！.pdf` | AgentHarness / Tool-use / HITL | 企业财务与流量数据分析 AgentHarness，强调 Tool-use、SSE、HITL 和闭环分析。 | 问主循环、人工确认、数据分析链路和指标来源。 |
+| 陈康 | `陈康-Agent开发岗位.pdf` | ReAct / MCP / RAG / Memory | ReAct、Tool Calling、MCP、RAG、Memory、评测都覆盖，Agent 架构表达完整。 | 问 Query Loop、Observation 回传、MCP 工具边界和评测闭环。 |
+| 徐耀鹏 | `C++开发 - 徐耀鹏 - 17302272003 - 中国地质大学（武汉）.pdf` | C++ MCP Server / Infra | C++17 MCP Server，做了 HTTP / stdio 双传输层、工具注册、资源、Prompt 和 Ollama 集成。 | 问 MCP 协议封装、双传输层、并发连接和 tool/resource/prompt 边界。 |
+| 邵煜 | `邵煜.pdf` | 多 Agent RAG / checkpoint | 多 Agent RAG 研究链路、SQLite 记忆 / checkpoint、评测集和长期任务思路比较清楚。 | 问状态维护、记忆与 checkpoint、评测集构建和失败样例回放。 |
+| 马克福 | `简历_副本4.pdf` | LangGraph / RAG / 训练 | BUPT 硕士，LangGraph / RAG / LoRA / DPO / GRPO 都有，偏模型与 Agent 结合方向。 | 问闭环 Agent 的落地、训练与推理边界、评测和实际负责部分。 |
+
+### 2026-06-24 低优先初筛
+
+| 候选人 | 简历文件 | 判断 | 建议动作 |
+| --- | --- | --- | --- |
+| 胡平 | `胡平-立刻到岗-可实习六个月.pdf` | JobCopilot 走的是 LLM workflow + 岗位筛选 + 个性化招呼语，更偏自动化投递和 prompt 工程。 | 30 分钟初筛，重点问岗位筛选规则、LLM-as-Judge、异步流程和反爬/节流处理。 |
+| 马志宇 | `简历-马志宇.pdf` | 农业 RAG + 文档解析链路较完整，但核心还是检索和领域问答，不是当前主线最强匹配。 | 30 分钟初筛，重点问复杂表格清洗、Query Rewrite / HyDE、评测和幻觉治理。 |
+
 ### 已面试 / 已处理历史
 
 `raw/` 中 `～～` 开头的简历视为已面试 / 已处理历史，不进入下周新增联系。
@@ -141,7 +161,7 @@
 1. 周一先打 P0 前 10 人；原计划第一优先 6 人不能丢，新增候选作为同池竞争。
 2. 每通电话都确认到岗时间、每周天数、可持续月数、是否能讲代码/GitHub/demo。
 3. 技术面统一追加“Agent 思考、决策、反馈”追问，不单独作为一个新岗位。
-4. 如果 P0 里约不到 6 场，就从 P1 和新增补位里按顺序补：李昊泽、方浩、廖月华、王悦、朱坤、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈翔宇、侯永欣。
+4. 如果 P0 里约不到 6 场，就从 P1 和新增补位里按顺序补：李昊泽、方浩、廖月华、王悦、朱坤、曲仁宏、李正筱、王政浩、王俊豪、陈康、徐耀鹏、邵煜、马克福、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈翔宇、侯永欣。
 5. 每通电话后立即回填 [contact-tracking.md](contact-tracking.md)。
 6. 若有 3-5 人一面表现好，周五前安排设计实操或二面。
 
