@@ -28,6 +28,8 @@
 
 ## 结论
 
+更新：2026-06-26，本周已面试候选人均未通过；黄浩男、胡选杰、刘衡、舒泽林、廖月华不再推进；李烨确定不来。下周执行请优先看 [interview-overview.md](interview-overview.md)、[interview-plan.md](interview-plan.md) 和 [today-contact-list.md](today-contact-list.md) 的 2026-06-29 执行池，本文件后续旧池仅保留筛选依据。
+
 - A 档：优先安排技术一面，核心要求匹配度高。
 - B 档：可作为备选，建议先做 20-30 分钟电话初筛或简历追问。
 - C 档：暂缓，当前岗位匹配度不足。
@@ -66,9 +68,9 @@
 | 李夏洋 | `简历.pdf` | Agent Runtime / 通用平台 | Mira Interview Agent 覆盖 Event Stream + State Machine + ReAct Loop、Tool/Skill 调度、ContextBuilder/Compactor、Memory Store、多模型路由和降级，适合通用 Agent 平台方向。 | 要求画 Runtime 架构，解释状态迁移、工具 schema 注入、技能按需加载、上下文压缩、会话恢复和可观测 trace。 |
 | 孙奇 | `孙奇_AI_Agent开发实习6个月以上.pdf` | OpenClaw / 工具平台 / 工作流 | QQ Agentic 助手覆盖 OpenClaw Plugin SDK、40+ 工具、HTML 渲染、网页截图、文档读写/转换、工作流调度、长期记忆和安全边界。 | 追问 OpenClaw 插件开发、工具 schema、网页截图/HTML 渲染链路、QQ 消息通道可靠性、40+ 工具权限和长期记忆隔离。 |
 
-## 下周合并优先池（2026-06-22）
+## 2026-06-22 合并优先池（历史参考）
 
-说明：这是在原“新岗位优先面试”基础上，加入新增简历和“Agent 思考/决策/反馈”要求后的执行池。原计划核心候选不降级，新增候选按闭环证据插入。
+说明：这是在原“新岗位优先面试”基础上，加入新增简历和“Agent 思考/决策/反馈”要求后的历史执行池。2026-06-26 已面试未通过或确定不来的候选，以联系跟进表为准，不进入下周执行池。
 
 | 候选人 | 简历文件 | 来源 | 匹配方向 | 推荐理由 | 面试重点 |
 | --- | --- | --- | --- | --- | --- |

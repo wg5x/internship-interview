@@ -1,10 +1,12 @@
 # 面试总览
 
-更新日期：2026-06-24
+更新日期：2026-06-26
 
 这份文档作为当前唯一入口。日常先看这里；排期看 [interview-plan.md](interview-plan.md)，打电话和记录进展时再打开 [contact-tracking.md](contact-tracking.md)。
 
 补充：2026-06-24 已有三批新增简历并入当前筛选口径。前两批中李昊泽、方浩、廖月华、王悦、朱坤、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟进入新增补位 / 强初筛；最新一批中曲仁宏、王俊豪、李正筱、王政浩、马克福、邵煜、陈康、徐耀鹏进入强初筛 / 技术一面补位，胡平、马志宇留作低优先初筛，杜浩东、刘盼盼、甄锐暂缓。`HS6...docx` 是问卷，不纳入候选人池。排序仍按岗位匹配优先；同档位里女生候选尽量前置。
+
+本周结果：2026-06-22 至 2026-06-26 已面试候选人全部未通过。已记录不推进：黄浩男、胡选杰、刘衡、舒泽林、廖月华；李烨保持“确定不来”。下周从未面试 / 未联系的强匹配候选继续推进。
 
 ## 1. 面试要求
 
@@ -50,39 +52,43 @@
 - 对工作流候选人，重点问状态图、节点输入输出、失败重试、兜底和人工确认。
 - 对所有推进候选人，都要追问“思考、决策、反馈”：状态怎么流转、为什么调用这个工具、失败反馈如何进入下一轮。
 
-## 2. 下周优先推进人员
+## 2. 下周优先推进人员（2026-06-29 至 2026-07-03）
 
-### P0：原计划核心 + 新增强匹配
+### P0：下周第一轮联系
 
 | 顺序 | 候选人 | 电话 | 当前状态 | 匹配方向 | 为什么符合 |
 | ---: | --- | --- | --- | --- | --- |
-| 1 | 李烨 | 17335610901 | 未联系 / 待确认 | Claw / 通用 Agent 平台 + RAG | 原计划核心。ClawAgent 覆盖会话队列、任务取消、权限审批、审计日志、SSE、Web 检索。 |
-| 2 | 黄浩男 | 13224672500 | 未联系 / 待确认 | Agent Runtime / Harness / Claw 类平台 | 原计划核心。Pure Coding Agent Harness 覆盖 Runtime、ToolCalling、ContextManagement、Checkpoint/Resume、JSONL Trace、workspace 隔离。 |
-| 3 | 胡选杰 | 13276387009 | 未联系 / 待确认 | Coding Agent / MCP / 多 Agent | 新增强匹配。ReAct + Plan Mode、MCP、Skill、上下文压缩、权限拦截、自动记忆提取、多 Agent 协作。 |
-| 4 | 刘衡 | 13708800655 | 未联系 / 待确认 | 浏览器自动运营 Agent + OpenClaw | 原计划核心。小红书内容运营自动化 Workflow，Playwright + 内容抓取 + 自动发布。 |
-| 5 | 舒泽林 | 17508510706 | 未联系 / 待确认 | 桌面 / 浏览器自动化 Agent | 原计划核心。AirJelly 主动式桌面 Agent，截图、键盘状态、活跃窗口、主动触发、记忆和 benchmark。 |
-| 6 | 赵绍猛 | 15713380988 | 未联系 / 待确认 | AIOps Agent Harness / 工具治理 | 新增强匹配。自研 Harness、工具治理、上下文压缩、审计、失败重试、防无限 ReAct loop、长期记忆。 |
-| 7 | 李夏洋 | 15518794255 | 未联系 / 待确认 | Agent Runtime / 通用平台 | 原计划核心。Mira Runtime 覆盖 Event Stream、State Machine、ReAct Loop、Tool/Skill、ContextBuilder/Compactor。 |
-| 8 | 孙奇 | 18405675136 | 未联系 / 待确认 | OpenClaw / 工具平台 / 工作流 | 原计划核心。OpenClaw Plugin SDK、40+ 工具、网页截图、HTML 渲染、长期记忆、安全边界。 |
-| 9 | 王博涵 | 18991120513 | 未联系 / 待确认 | Agentic RAG / 评测闭环 | 新增强匹配。Routing、Grading、Self-Reflection、RAGAS、Prometheus、request_id 日志和法律 Agent 自动化评测。 |
-| 10 | 周思行 | 13350756085 | 未联系 / 待确认 | 多 Agent 路由 / Monitor 闭环 | 新增强匹配。三路意图识别、三级记忆、多 Agent 动态路由、Monitor 闭环、工具熔断降级、LLM-as-Judge。 |
+| 1 | 冯慧 | 15002602703 | 未联系 / 待确认 | AIOps Agent / LangGraph / MCP | 北邮本硕，Plan-Execute-Replan、MCP、RAG、SSE 和重试机制完整，同档位女生候选前置。 |
+| 2 | 李家璇 | 15036583295 | 未联系 / 待确认 | Agentic Knowledge Hub / Dify 客服 Agent | RAG 多阶段检索、Agent 任务拆解和 Dify 工作流，适合强初筛。 |
+| 3 | 李昊泽 | 18391892833 | 未联系 / 待确认 | Coding Agent / Harness / Runtime | CodeRein 覆盖 Plan Mode、Checkpoint/Resume、执行域隔离、审计和 benchmark。 |
+| 4 | 方浩 | 19121759781 | 未联系 / 待确认 | OnCall Agent / Coding Agent / MCP | 多 MCP、自进化记忆、上下文压缩、多 Agent 协作和安全审查。 |
+| 5 | 王悦 | 13819100076 | 未联系 / 待确认 | 主动式 Agent / MCP / 记忆系统 | 6 阶段生命周期、5 阶段推送决策、五层记忆、MCP 并行拉取和后台任务框架。 |
+| 6 | 朱坤 | 13862433994 | 未联系 / 待确认 | MCP 网关 / Multi-Agent / RAG | MCP Nexus 协议网关、Supervisor-Worker、TraceID / 指标链路完整。 |
+| 7 | 赵绍猛 | 15713380988 | 未联系 / 待确认 | AIOps Agent Harness / 工具治理 | 自研 Harness、工具治理、上下文压缩、审计、失败重试、防无限 ReAct loop、长期记忆。 |
+| 8 | 李夏洋 | 15518794255 | 未联系 / 待确认 | Agent Runtime / 通用平台 | Mira Runtime 覆盖 Event Stream、State Machine、ReAct Loop、Tool/Skill、ContextBuilder/Compactor。 |
+| 9 | 孙奇 | 18405675136 | 未联系 / 待确认 | OpenClaw / 工具平台 / 工作流 | OpenClaw Plugin SDK、40+ 工具、网页截图、HTML 渲染、长期记忆、安全边界。 |
+| 10 | 王博涵 | 18991120513 | 未联系 / 待确认 | Agentic RAG / 评测闭环 | Routing、Grading、Self-Reflection、RAGAS、Prometheus、request_id 日志和法律 Agent 自动化评测。 |
+| 11 | 周思行 | 13350756085 | 未联系 / 待确认 | 多 Agent 路由 / Monitor 闭环 | 三路意图识别、三级记忆、多 Agent 动态路由、Monitor 闭环、工具熔断降级、LLM-as-Judge。 |
+| 12 | 曲仁宏 | 13303505823 | 未联系 / 待确认 | AI Agent / AI Infra | HChat + HRPC 体现分布式 RPC、网关、聊天与状态服务，基础设施味道强。 |
 
-### P1：技术一面或强初筛
+### P1：第二轮补位联系
 
 | 顺序 | 候选人 | 电话 | 当前状态 | 适合方向 | 建议 |
 | ---: | --- | --- | --- | --- | --- |
-| 1 | 陈翔宇 | 18253832648 | 未联系 / 待确认 | MedAgent / Self-RAG / MCP | 新增强候选，查完整前后端、MCP 和 RAGAS 评估是否真实。 |
-| 2 | 侯永欣 | 18238052603 | 未联系 / 待确认 | 客服 Agent / trace eval | 新增强候选，查 JSON 命令、工具确认、trace/eval 数据模型。 |
-| 3 | 李子昊 | 18302774840 | 未联系 / 待确认 | Multi-Agent PR Copilot / RAG-MCP | 新增 2026-06-22。更贴“思考/决策/反馈”，重点查 Orchestrator、DAG 规划、失败降级和双评估后端。 |
-| 4 | 来淼鑫 | 18335933458 | 未联系 / 待确认 | 医疗多 Agent / LangGraph | 新增 2026-06-22。5-Agent Pipeline、条件路由和共享状态模型较完整。 |
-| 5 | 雷剑 | 13203543481 | 未联系 / 待确认 | ReAct 出行 Agent / MCP + RAG | 新增 2026-06-22。FastMCP、stdio/SSE、LangGraph ReAct、多用户上下文隔离和 RAGAS 评估。 |
-| 6 | 刘心怡 | 13852765692 | 未联系 / 待确认 | RAG + 多 Agent 工作流 | 原补位，重点考 LangGraph 反思补检、MCP Tool Manager 和评测闭环。 |
-| 7 | 戴霖 | 18900727703 | 未联系 / 待确认 | AIOps Agent + RAG | 原补位，工程化强，问 Golden Set、软拒答阈值、MCP 工具和 Redis 锁。 |
-| 8 | 王泽超 | 15158269252 | 未联系 / 待确认 | Selenium 浏览器工具 + RAG | 原补位，问 Selenium、验证码/Cookie 和企业 RAG 平台。 |
-| 9 | 黄仟秋 | 15399760679 | 未联系 / 待确认 | Agent 评测 + RAG 后端 | 原补位，适合评测、trace、RAG 后端。 |
-| 10 | 田宏越 | 15253882785 | 未联系 / 待确认 | Agent Harness + 工作流平台 | 原补位，验证 PLAN-EXECUTE-VERIFY 和 311 个 pytest。 |
+| 1 | 李正筱 | 18654558025 | 未联系 / 待确认 | Coding Agent / Harness / Runtime | 重点问 Orchestrator、工具调度、失败回滚、记忆和上下文压缩。 |
+| 2 | 王政浩 | 15513950072 | 未联系 / 待确认 | Coding Agent / Context Compression | 重点问 context 压缩、沙箱隔离、读后写锁和断点续跑。 |
+| 3 | 王俊豪 | 13586134636 | 未联系 / 待确认 | AgentHarness / Tool-use / HITL | 重点问主循环、人工确认、数据分析链路和指标来源。 |
+| 4 | 陈康 | 13237333616 | 未联系 / 待确认 | ReAct / MCP / RAG / Memory | 重点问 Query Loop、Observation 回传、MCP 工具边界和评测闭环。 |
+| 5 | 徐耀鹏 | 17302272003 | 未联系 / 待确认 | C++ MCP Server / Infra | 重点问 MCP 协议封装、双传输层、并发连接和 tool/resource/prompt 边界。 |
+| 6 | 邵煜 | 18518653323 | 未联系 / 待确认 | 多 Agent RAG / checkpoint | 重点问状态维护、记忆与 checkpoint、评测集构建和失败样例回放。 |
+| 7 | 马克福 | 17690713967 | 未联系 / 待确认 | LangGraph / RAG / 训练 | 重点问闭环 Agent 的落地、训练与推理边界、评测和实际负责部分。 |
+| 8 | 刘锐 | 18214794197 | 未联系 / 待确认 | 多 Agent 审查 / Playwright / RPA | 重点问 Supervisor-Worker、Playwright/RPA 调用边界、ReAct 自纠错和人工审批接管。 |
+| 9 | 李鑫 | 19862255726 | 未联系 / 待确认 | Agent Swarm / MCP / RAGAS | 重点问 Agent Loop、Swarm 路由、工具调用限制、记忆压缩和反思节点评测。 |
+| 10 | 周升 | 13476527154 | 未联系 / 待确认 | Plan-Execute-Reflection 多 Agent / RAGAS | 重点问反思 Agent 校验、工具 API 超时降级、Memory 复用和 RAGAS 指标。 |
 
 ### 自动化运营最相关
+
+说明：本节保留方向匹配分析；刘衡、舒泽林已在 2026-06-26 回填为“面试未通过 / 不推进”，不进入下周约面池。
 
 | 候选人 | 判断 |
 | --- | --- |
@@ -93,6 +99,8 @@
 | 孙奇 | OpenClaw 工具平台和网页截图能力强，但不是明确运营自动化闭环。 |
 
 ### 2026-06-23 新增补位
+
+说明：本节保留新增批次分析；廖月华已在 2026-06-26 回填为“面试未通过 / 不推进”，不再作为补位联系对象。
 
 | 候选人 | 简历文件 | 方向 | 为什么关注 | 面试重点 |
 | --- | --- | --- | --- | --- |
@@ -158,10 +166,10 @@
 
 ## 3. 下周建议动作
 
-1. 周一先打 P0 前 10 人；原计划第一优先 6 人不能丢，新增候选作为同池竞争。
+1. 周一先打 P0 前 12 人；本周未通过候选不再重复约面。
 2. 每通电话都确认到岗时间、每周天数、可持续月数、是否能讲代码/GitHub/demo。
 3. 技术面统一追加“Agent 思考、决策、反馈”追问，不单独作为一个新岗位。
-4. 如果 P0 里约不到 6 场，就从 P1 和新增补位里按顺序补：李昊泽、方浩、廖月华、王悦、朱坤、曲仁宏、李正筱、王政浩、王俊豪、陈康、徐耀鹏、邵煜、马克福、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈翔宇、侯永欣。
+4. 如果 P0 里约不到 6 场，就从 P1 和新增补位里按顺序补：李正筱、王政浩、王俊豪、陈康、徐耀鹏、邵煜、马克福、刘锐、李鑫、周升、刘少波、陈翔宇、侯永欣。
 5. 每通电话后立即回填 [contact-tracking.md](contact-tracking.md)。
 6. 若有 3-5 人一面表现好，周五前安排设计实操或二面。
 

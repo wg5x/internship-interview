@@ -1,12 +1,14 @@
 # 下周面试计划
 
-更新日期：2026-06-24
+更新日期：2026-06-26
 
-适用周期：2026-06-22（周一）至 2026-06-26（周五）。这份计划是在原 2026-06-17 新岗位计划基础上追加新要求，不替代原来的浏览器自动运营 Agent / 通用 Agent 平台 / 工作流 / RAG 主线。
+适用周期：2026-06-29（周一）至 2026-07-03（周五）。这份计划是在原 2026-06-17 新岗位计划基础上继续推进，不替代原来的浏览器自动运营 Agent / 通用 Agent 平台 / 工作流 / RAG 主线。
 
 补充：2026-06-24 已并入三批新增简历。前两批里李昊泽、方浩、廖月华、王悦、朱坤、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟进入新增补位 / 强初筛；最新追加批次里曲仁宏、王俊豪、李正筱、王政浩、马克福、邵煜、陈康、徐耀鹏进入强初筛 / 技术一面补位，胡平、马志宇进入低优先初筛，杜浩东、刘盼盼、甄锐暂缓。`HS6...docx` 是问卷，不纳入候选人池。排序原则仍是岗位匹配优先；同档位、匹配度接近时女生候选尽量前置。
 
-## 1. 本周目标
+本周结果：2026-06-22 至 2026-06-26 已面试候选人全部未通过。黄浩男、胡选杰、刘衡、舒泽林、廖月华已记录为“面试未通过 / 不推进”；李烨为“确定不来”。下周不再重复约这批人，改从未联系强匹配候选继续推进。
+
+## 1. 下周目标
 
 下周面试同时看两层：
 
@@ -21,8 +23,8 @@
 
 成功标准：
 
-- 先约原计划第一优先 6 人，再补新增强匹配候选。
-- 约到 8-10 场技术一面。
+- 先约下周 P0 前 12 人，再用 P1 补位。
+- 约到 6-8 场技术一面或强初筛。
 - 筛出 3-5 人进入技术二面或设计实操。
 - 每个推进候选人都要能讲清代码、状态图、关键文件、评测方式和失败案例。
 
@@ -30,11 +32,11 @@
 
 | 日期 | 上午 | 下午 | 目标产出 |
 | --- | --- | --- | --- |
-| 2026-06-22 周一 | 批量联系原计划核心：李烨、黄浩男、舒泽林、刘衡、李夏洋、孙奇；同步联系新增强匹配：胡选杰、赵绍猛、王博涵、周思行 | 技术一面优先排：李烨、黄浩男、胡选杰 | 先锁定通用 Agent 平台 / Runtime / Coding Agent 第一梯队 |
-| 2026-06-23 周二 | 技术一面：刘衡、舒泽林 | 技术一面：赵绍猛、王博涵 | 同时覆盖浏览器/桌面 Agent 和思考-决策-反馈强候选 |
-| 2026-06-24 周三 | 技术一面：李夏洋、孙奇 | 技术一面或强初筛：周思行、陈翔宇、侯永欣 | 补齐 OpenClaw、工具平台、客服 Agent、评测闭环方向 |
-| 2026-06-25 周四 | 原补位池初筛：刘心怡、戴霖、王泽超、黄仟秋、田宏越 | 新增补位初筛：李昊泽、方浩、廖月华、王悦、朱坤；如需女生候选补位，优先加冯慧、李家璇 | 形成 A+/A-/候补/NG 初版 |
-| 2026-06-26 周五 | 二面/设计实操：周一至周四通过者 | 面试官复盘、最终排序、回填跟进表；如有余量再初筛刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟 | 输出 offer/候补/淘汰建议 |
+| 2026-06-29 周一 | 批量联系 P0 前 6 人：冯慧、李家璇、李昊泽、方浩、王悦、朱坤 | 继续联系 P0 后 6 人：赵绍猛、李夏洋、孙奇、王博涵、周思行、曲仁宏 | 先锁定 6-8 场技术一面 / 强初筛 |
+| 2026-06-30 周二 | 技术一面或强初筛：周一已约候选 | 补位联系 P1：李正筱、王政浩、王俊豪、陈康、徐耀鹏 | 覆盖 Coding Agent / Runtime / MCP / ReAct |
+| 2026-07-01 周三 | 技术一面或强初筛：P0/P1 已约候选 | 补位联系：邵煜、马克福、刘锐、李鑫、周升 | 覆盖多 Agent、RAG、Agent Swarm 和评测闭环 |
+| 2026-07-02 周四 | 二面/设计实操：周一至周三通过者 | 继续补位：刘少波、陈翔宇、侯永欣、来淼鑫、雷剑 | 形成 A+/A-/候补/NG 初版 |
+| 2026-07-03 周五 | 二面/设计实操或加面 | 面试官复盘、最终排序、回填跟进表 | 输出 offer/候补/淘汰建议 |
 
 建议排期粒度：
 
@@ -43,40 +45,39 @@
 - 技术二面/设计实操：90 分钟。
 - 连续面试中间至少留 15 分钟做记录。
 
-## 3. P0：优先约技术一面
+## 3. P0：下周第一轮联系
 
-P0 不是只按新增简历排序，而是把原计划核心和新增“思考/决策/反馈”强候选合并后排序。
+P0 只放未面试 / 未联系候选。本周未通过候选不再重复约面。
 
 | 优先级 | 候选人 | 简历文件 | 联系方式 | 主匹配方向 | 为什么优先 | 思考/决策/反馈追问 |
 | ---: | --- | --- | --- | --- | --- | --- |
-| 1 | 李烨 | `李烨-简历.pdf` | 17335610901 / 17335610901@163.com | Claw / 通用 Agent 平台 + RAG | 原计划核心。ClawAgent 本地优先多智能体工作台，覆盖会话队列、任务取消、权限审批、审计日志、SSE、Web 检索。 | 让他画 Agent 执行链路；追问会话 busy/follow-up 如何决策、任务取消后状态如何恢复、审计日志如何支持失败复盘。 |
-| 2 | 黄浩男 | `黄浩男-Agent开发_AI应用开发 (2).pdf` | 13224672500 / hhn13224672500@163.com | Agent Runtime / Harness / Claw 类平台 | 原计划核心。Pure Coding Agent Harness 覆盖 Runtime、ToolCalling、ContextManagement、Checkpoint/Resume、JSONL trace、workspace 隔离。 | 强验证 GitHub；问 Runtime 主循环、工具调用失败如何重试/停止、checkpoint 校验、benchmark 如何驱动迭代。 |
-| 3 | 胡选杰 | `我的简历 (1).pdf` | 13276387009 / 755877147@qq.com | Coding Agent / MCP / 多 Agent | 新增简历中最贴新要求。Coding Agent 写到 ReAct + Plan Mode、MCP、Skill、两层上下文压缩、五层权限拦截、自动记忆提取、多 Agent 协作。 | 追问 Plan Mode 与 ReAct 如何切换、工具 schema 延迟加载、用户纠正如何进入记忆、Coordinator Agent 如何汇总反馈。 |
-| 4 | 刘衡 | `刘衡aiAgent开发简历.pdf` | 13708800655 / 453093656@qq.com | 浏览器自动运营 Agent + OpenClaw | 原计划核心。小红书内容运营自动化 Workflow 明确写 Playwright、内容抓取、爆款分析、生成、自动发布和 OpenClaw。 | 追问选题-生成-审核-发布-复盘如何决策；登录态/Cookie/验证码失败时如何反馈到流程；自动发布前人工确认怎么做。 |
-| 5 | 舒泽林 | `舒泽林的简历 (1).pdf` | 17508510706 / 857824448@qq.com | 桌面 / 浏览器自动化 Agent | 原计划核心。AirJelly 桌面端主动式 Agent，覆盖截图、键盘状态、活跃窗口、主动触发、记忆和 benchmark。 | 追问主动触发的判定规则、截图理解如何归属 Task、用户反馈如何更新 Episodic/Semantic 记忆、benchmark 如何回归。 |
-| 6 | 赵绍猛 | `赵绍猛-个人简历.pdf` | 15713380988 / 15713380988@163.com | AIOps Agent Harness / 工具治理 | 新增简历中 Harness 和治理意识强：模型调用、工具执行、上下文压缩、审计、工具权限、失败/超时/重试、防无限 ReAct loop、长期记忆和评测。 | 问 Harness 是否自研；工具治理状态机、重试停止条件、审计字段、长期记忆去重/遗忘、AIOps 真实代码。 |
-| 7 | 李夏洋 | `简历.pdf` | 15518794255 / 15518794255@163.com | Agent Runtime / 通用平台 | 原计划核心。Mira Runtime 覆盖 Event Stream、State Machine、ReAct Loop、Tool/Skill、ContextBuilder/Compactor。 | 要求画状态机；追问 ContextBuilder 何时压缩、工具结果如何进入 observe、失败后如何 resume。 |
-| 8 | 孙奇 | `孙奇_AI_Agent开发实习6个月以上.pdf` | 18405675136 / 1446437177@qq.com | OpenClaw / 工具平台 / 工作流 | 原计划核心。OpenClaw Plugin SDK、40+ 工具、网页截图、HTML 渲染、工作流调度、长期记忆和安全边界。 | 问插件 schema、40+ 工具如何权限分级、网页截图结果如何反馈给工作流、长期记忆如何做用户隔离。 |
-| 9 | 王博涵 | `王博涵_杭电27届硕.pdf` | 18991120513 / 1433340920@qq.com | Agentic RAG / 评测闭环 | 新增强候选。Agentic RAG 明确包含 Routing、Grading、Self-Reflection 节点，另有 RAGAS、Prometheus、request_id 日志、法律 Agent 自动化评测。 | 追问 Grading/Self-Reflection 触发条件、30 条黄金集是否够、Tool Calling Success Rate 如何测、Dify 与自研 LangGraph 边界。 |
-| 10 | 周思行 | `后端&Agent实习-周思行-13350756085.pdf` | 13350756085 | 多 Agent 路由 / Monitor 闭环 | 新增强候选。DealFlow AI 写到三路意图识别、三级记忆、多 Agent 动态路由、Monitor 闭环、工具熔断降级、LLM-as-Judge。 | 问 Monitor 如何把成功率/延迟转成路由惩罚因子、LLM-as-Judge 一致性、工具熔断阈值、复合问题并行协作边界。 |
+| 1 | 冯慧 | `冯慧_简历 (11).pdf` | 15002602703 / fenghui@bupt.edu.cn | AIOps Agent / LangGraph / MCP | 北邮本硕，Plan-Execute-Replan、MCP、RAG、SSE 和重试机制完整，同档位女生候选前置。 | 问 AIOps 状态机、MCP 工具封装、重试停止条件和个人代码范围。 |
+| 2 | 李家璇 | `李家璇简历.pdf` | 15036583295 / Lijiaxuan@henu.edu.cn | Agentic Knowledge Hub / Dify 客服 Agent | RAG 多阶段检索、Agent 任务拆解和 Dify 工作流，适合强初筛。 | 问混合召回、Agent 任务拆解、Dify 与自研后端边界。 |
+| 3 | 李昊泽 | `李昊泽-AI Agent开发工程师.pdf` | 18391892833 / lihaoze1108@163.com | Coding Agent / Harness / Runtime | CodeRein 覆盖 Plan Mode、Checkpoint/Resume、执行域隔离、审计和 benchmark。 | 问 Runtime 主循环、ToolExecutor 域隔离、workspace 漂移恢复和测试覆盖。 |
+| 4 | 方浩 | `方浩_Agent 应用开发实习_中南大学硕士_简历.pdf` | 19121759781 / haofang@csu.edu.cn | OnCall Agent / Coding Agent / MCP | 多 MCP、自进化记忆、上下文压缩、多 Agent 协作和安全审查。 | 问 Query Loop、自进化记忆闭环、多 Agent 权限边界和人工确认链路。 |
+| 5 | 王悦 | `王悦_agent_1.pdf` | 13819100076 | 主动式 Agent / MCP / 记忆系统 | 6 阶段生命周期、5 阶段推送决策、五层记忆、MCP 并行拉取和后台任务框架。 | 问主动推送策略、去重机制、记忆审计任务和热点监控闭环。 |
+| 6 | 朱坤 | `简历_朱坤.pdf` | 13862433994 / alan_root@outlook.com | MCP 网关 / Multi-Agent / RAG | MCP Nexus 协议网关、Supervisor-Worker、TraceID / 指标链路完整。 | 问 MCP 网关抽象层、熔断与校验、状态一致性和观测链路。 |
+| 7 | 赵绍猛 | `赵绍猛-个人简历.pdf` | 15713380988 / 15713380988@163.com | AIOps Agent Harness / 工具治理 | Harness 和治理意识强，覆盖工具权限、失败重试、防无限 ReAct loop、长期记忆和评测。 | 问 Harness 是否自研、工具治理状态机、审计字段和长期记忆去重。 |
+| 8 | 李夏洋 | `简历.pdf` | 15518794255 / 15518794255@163.com | Agent Runtime / 通用平台 | Mira Runtime 覆盖 Event Stream、State Machine、ReAct Loop、Tool/Skill、ContextBuilder/Compactor。 | 要求画状态机；追问 ContextBuilder 何时压缩、工具结果如何进入 observe、失败后如何 resume。 |
+| 9 | 孙奇 | `孙奇_AI_Agent开发实习6个月以上.pdf` | 18405675136 / 1446437177@qq.com | OpenClaw / 工具平台 / 工作流 | OpenClaw Plugin SDK、40+ 工具、网页截图、HTML 渲染、长期记忆和安全边界。 | 问插件 schema、工具权限分级、网页截图结果如何反馈给工作流、长期记忆隔离。 |
+| 10 | 王博涵 | `王博涵_杭电27届硕.pdf` | 18991120513 / 1433340920@qq.com | Agentic RAG / 评测闭环 | Routing、Grading、Self-Reflection、RAGAS、Prometheus、request_id 日志和法律 Agent 自动化评测。 | 问 Grading/Self-Reflection 触发条件、Tool Calling Success Rate 和 Dify / LangGraph 边界。 |
+| 11 | 周思行 | `后端&Agent实习-周思行-13350756085.pdf` | 13350756085 | 多 Agent 路由 / Monitor 闭环 | 三路意图识别、三级记忆、多 Agent 动态路由、Monitor 闭环、工具熔断降级、LLM-as-Judge。 | 问 Monitor 如何把成功率/延迟转成路由惩罚因子、工具熔断阈值和复合问题协作边界。 |
+| 12 | 曲仁宏 | `曲.pdf` | 13303505823 / 1508945593@qq.com | AI Agent / AI Infra | HChat + HRPC 体现分布式 RPC、网关、聊天与状态服务，基础设施味道强。 | 问服务拆分、RPC 注册发现、并发模型和个人负责范围。 |
 
-## 4. P1：约技术一面或强初筛
+## 4. P1：第二轮补位联系
 
 | 候选人 | 简历文件 | 联系方式 | 判断 | 建议动作 |
 | --- | --- | --- | --- | --- |
-| 陈翔宇 | `陈翔宇-简历.pdf` | 18253832648 / 18253832648@163.com | MedAgent 覆盖 ReAct Agent、MCP、Function Calling、Adaptive RAG + Self-RAG、RAGAS 异步评估、云端失败回退本地模型。 | 周三技术一面或强初筛，重点查是否真有完整前后端和 MCP 代码。 |
-| 侯永欣 | `侯永欣-个人简历-井盖+智能客服.pdf` | 18238052603 / 2376687078@qq.com | LangGraph 智能客服 RAG Agent 写到路由决策、JSON 命令、工具 schema、发票确认、agent_trace/retrieval_trace/tool_trace/eval_record。 | 周三技术一面或强初筛，重点看 trace/eval 数据模型和工具确认机制。 |
-| 李子昊 | `附件简历-李子昊-后端开发-29年应届生.pdf` | 18302774840 / liziar7@gmail.com | 新增 2026-06-22。Agent Loop、MCP、四层上下文压缩、Orchestrator、多 Agent 协作、RAG-MCP、PR Copilot 两层 DAG 规划，贴“思考/决策/反馈”口径。 | 周四强初筛；重点问 Orchestrator、两层 DAG 规划、maxRetries=2、失败降级、Golden Test Set 与 RAGAS。 |
-| 来淼鑫 | `来淼鑫简历.pdf` | 18335933458 / 1307837569@qq.com | 新增 2026-06-22。多 Agent 医疗临床辅助决策系统写到 5-Agent Pipeline、条件路由、共享状态模型。 | 周四强初筛；问条件路由、ClinicalState、信息不足回退、ICD-10 接口和 100+ 用例测试。 |
-| 雷剑 | `雷剑-实习简历-27应届生.pdf` | 13203543481 / leijian0905@163.com | 新增 2026-06-22。LangGraph + FastMCP 出行 ReAct Agent、stdio/SSE、多用户上下文隔离、RAGAS 评估。 | 周四强初筛；问 FastMCP、会话隔离、工具接入效率 90% 口径、RAGAS 和全链路异步。 |
-| 刘心怡 | `刘心怡_武汉大学硕士_大模型应用开发616.pdf` | 13852765692 / liuxy66880@163.com | 原计划补位。CareerPilot 多 Agent 和 Agentic RAG 稳，适合 RAG/工作流强补位。 | 周四初筛；重点问反思补检、MCP Tool Manager 和评测闭环。 |
-| 戴霖 | `应聘Agent应用开发实习生—27年应届生北科大戴霖简历.pdf` | 18900727703 / 18900727703@163.com | 原计划补位。OnCall AIOps Agent 工程化好，适合运维 Agent/RAG。 | 周四初筛；问 Golden Set、软拒答阈值、MCP 工具和 Redis 锁。 |
-| 王泽超 | `王泽超_Agent简历.pdf` | 15158269252 / wzc294621327@gmail.com | 原计划补位。Selenium 动态网页抓取、验证码/Cookie，兼具 RAG 评估平台。 | 周四初筛；问 Selenium 稳定性、验证码/Cookie 复用和网页抓取失败反馈。 |
-| 黄仟秋 | `黄仟秋.pdf` | 15399760679 / huangqianqiu7@qq.com | 原计划补位。DataAgent-Bench、trace/metrics、工具边界和 RAG 后端。 | 周四初筛；问 benchmark、工具隔离、SSE 契约和失败兜底。 |
-| 田宏越 | `简历1.pdf` | 15253882785 / 15253882785@163.com | 原计划补位。Agent Harness、PLAN-EXECUTE-VERIFY、四层记忆、311 个 pytest。 | 周四初筛；问 Harness 自研程度、VERIFY 阶段怎么判定、测试覆盖。 |
-| 刘逍龙 | `刘逍龙18940802759 agent应用开发工程师.pdf` | 18940802759 / changqingbest@163.com | 原计划补位。Coze 工作流 + 后端 Agent。 | 如果 P0/P1 约不满再补；问 Coze 节点编排、插件接入、自研 Agent 差异。 |
-| 高敬杰 | `高敬杰河北工程大学.pdf` | 13483000182 / 3077618869@qq.com | 原计划补位。Go/Eino Agent 后端，MCP、Milvus/MySQL 分层记忆。 | 如果需要 Go 后端 Agent 补位再约；问 Eino 编排和 MCP 工具边界。 |
-| 邓靖俊 | `邓靖俊--AI应用实习--.pdf` | 13541043150 / jingjun_deng@qq.com | 原计划补位。RAG + LangGraph Agent + QLoRA。 | 如果需要 RAG/应用 Agent 补位再约；问工具调用上限、动态 Prompt、checkpoint。 |
+| 李正筱 | `李正筱求职.pdf` | 18654558025 / 1715428439@qq.com | Coding Agent / Harness / Runtime，覆盖 Redis TTL、checkpoint / resume、4 模型后端、7 工具。 | 技术一面补位，问 Orchestrator、工具调度、失败回滚、记忆和上下文压缩。 |
+| 王政浩 | `王政浩简历(2).pdf` | 15513950072 / wwwhuoduo@163.com | Coding Agent / Context Compression，ReAct 循环、流式输出、双后端切换和子 Agent 沙箱。 | 技术一面补位，问 context 压缩、沙箱隔离、读后写锁和断点续跑。 |
+| 王俊豪 | `最终修改简历！！.pdf` | 13586134636 / 2857004908@qq.com | AgentHarness / Tool-use / HITL，企业财务与流量数据分析 AgentHarness。 | 技术一面补位，问主循环、人工确认、数据分析链路和指标来源。 |
+| 陈康 | `陈康-Agent开发岗位.pdf` | 13237333616 / 1696948415@qq.com | ReAct / MCP / RAG / Memory，Agent 架构表达完整。 | 技术一面补位，问 Query Loop、Observation 回传、MCP 工具边界和评测闭环。 |
+| 徐耀鹏 | `C++开发 - 徐耀鹏 - 17302272003 - 中国地质大学（武汉）.pdf` | 17302272003 / yaopengxu2001@163.com | C++ MCP Server / Infra，HTTP / stdio 双传输层、工具注册、资源、Prompt 和 Ollama 集成。 | 技术一面补位，问 MCP 协议封装、双传输层、并发连接和 tool/resource/prompt 边界。 |
+| 邵煜 | `邵煜.pdf` | 18518653323 / 1979633138@qq.com | 多 Agent RAG / checkpoint，SQLite 记忆 / checkpoint、评测集和长期任务思路较清楚。 | 技术一面补位，问状态维护、记忆与 checkpoint、评测集构建和失败样例回放。 |
+| 马克福 | `简历_副本4.pdf` | 17690713967 / markfu@bupt.edu.cn | LangGraph / RAG / 训练，偏模型与 Agent 结合方向。 | 技术一面补位，问闭环 Agent 的落地、训练与推理边界、评测和实际负责部分。 |
+| 刘锐 | `agent简历.pdf` | 18214794197 / 2196290715@qq.com | 供应商资质联合审查覆盖 LangGraph 多 Agent、OCR/RAG/Text-to-SQL、Playwright 信用调查和 RPA 自动填报。 | 强初筛或技术一面，重点问 Supervisor-Worker、Playwright/RPA 调用边界、ReAct 自纠错和人工审批。 |
+| 李鑫 | `李鑫_19862255726.pdf` | 19862255726 / znnn2004@163.com | 医疗问答 Skills-Agent 双层架构、ReAct、Agent Swarm、双层记忆；教学系统有 LangGraph、MCP、RAGAS、LangFuse。 | 强初筛或技术一面，重点问 Agent Loop、Swarm 路由、工具调用限制、记忆压缩和反思节点评测。 |
+| 周升 | `周升__大模型应用开发_2027届.pdf` | 13476527154 / 13476527154@163.com | 气象 SkyNexus 多 Agent 系统覆盖 Plan-Execute-Reflection、ReAct、多轮反思、Memory、标准化工具 API 和 RAGAS。 | 强初筛，重点问反思 Agent 校验标准、气象工具超时降级和 RAGAS 指标来源。 |
 
 ## 5. 2026-06-23 追加批次：强初筛 / 技术一面补位
 
