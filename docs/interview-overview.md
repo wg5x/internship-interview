@@ -1,10 +1,10 @@
 # 面试总览
 
-更新日期：2026-06-26
+更新日期：2026-06-30
 
 这份文档作为当前唯一入口。日常先看这里；排期看 [interview-plan.md](interview-plan.md)，打电话和记录进展时再打开 [contact-tracking.md](contact-tracking.md)。
 
-补充：2026-06-24 已有三批新增简历并入当前筛选口径。前两批中李昊泽、方浩、廖月华、王悦、朱坤、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟进入新增补位 / 强初筛；最新一批中曲仁宏、王俊豪、李正筱、王政浩、马克福、邵煜、陈康、徐耀鹏进入强初筛 / 技术一面补位，胡平、马志宇留作低优先初筛，杜浩东、刘盼盼、甄锐暂缓。`HS6...docx` 是问卷，不纳入候选人池。排序仍按岗位匹配优先；同档位里女生候选尽量前置。
+补充：2026-06-24 已有三批新增简历并入当前筛选口径。前两批中李昊泽、方浩、廖月华、王悦、朱坤、冯慧、李家璇、刘锐、李鑫、周升、刘少波、陈学志、赵景博、管瑞阳、胡景晟进入新增补位 / 强初筛；最新一批中曲仁宏、王俊豪、李正筱、王政浩、马克福、邵煜、陈康、徐耀鹏进入强初筛 / 技术一面补位，胡平、马志宇留作低优先初筛，杜浩东、刘盼盼、甄锐暂缓。`HS6...docx` 是问卷，不纳入候选人池。2026-06-30 新增 `实习简历.pdf`（罗政淮），已归入暂缓。排序原则：同档位先女生，其次北京就读候选，再看岗位匹配和到岗条件。
 
 本周结果：2026-06-22 至 2026-06-26 已面试候选人全部未通过。已记录不推进：黄浩男、胡选杰、刘衡、舒泽林、廖月华；李烨保持“确定不来”。下周从未面试 / 未联系的强匹配候选继续推进。
 
@@ -60,11 +60,11 @@
 | ---: | --- | --- | --- | --- | --- |
 | 1 | 冯慧 | 15002602703 | 未联系 / 待确认 | AIOps Agent / LangGraph / MCP | 北邮本硕，Plan-Execute-Replan、MCP、RAG、SSE 和重试机制完整，同档位女生候选前置。 |
 | 2 | 李家璇 | 15036583295 | 未联系 / 待确认 | Agentic Knowledge Hub / Dify 客服 Agent | RAG 多阶段检索、Agent 任务拆解和 Dify 工作流，适合强初筛。 |
-| 3 | 李昊泽 | 18391892833 | 未联系 / 待确认 | Coding Agent / Harness / Runtime | CodeRein 覆盖 Plan Mode、Checkpoint/Resume、执行域隔离、审计和 benchmark。 |
-| 4 | 方浩 | 19121759781 | 未联系 / 待确认 | OnCall Agent / Coding Agent / MCP | 多 MCP、自进化记忆、上下文压缩、多 Agent 协作和安全审查。 |
-| 5 | 王悦 | 13819100076 | 未联系 / 待确认 | 主动式 Agent / MCP / 记忆系统 | 6 阶段生命周期、5 阶段推送决策、五层记忆、MCP 并行拉取和后台任务框架。 |
-| 6 | 朱坤 | 13862433994 | 未联系 / 待确认 | MCP 网关 / Multi-Agent / RAG | MCP Nexus 协议网关、Supervisor-Worker、TraceID / 指标链路完整。 |
-| 7 | 赵绍猛 | 15713380988 | 未联系 / 待确认 | AIOps Agent Harness / 工具治理 | 自研 Harness、工具治理、上下文压缩、审计、失败重试、防无限 ReAct loop、长期记忆。 |
+| 3 | 朱坤 | 13862433994 | 未联系 / 待确认 | MCP 网关 / Multi-Agent / RAG | MCP Nexus 协议网关、Supervisor-Worker、TraceID / 指标链路完整。 |
+| 4 | 赵绍猛 | 15713380988 | 未联系 / 待确认 | AIOps Agent Harness / 工具治理 | 自研 Harness、工具治理、上下文压缩、审计、失败重试、防无限 ReAct loop、长期记忆。 |
+| 5 | 李昊泽 | 18391892833 | 未联系 / 待确认 | Coding Agent / Harness / Runtime | CodeRein 覆盖 Plan Mode、Checkpoint/Resume、执行域隔离、审计和 benchmark。 |
+| 6 | 方浩 | 19121759781 | 未联系 / 待确认 | OnCall Agent / Coding Agent / MCP | 多 MCP、自进化记忆、上下文压缩、多 Agent 协作和安全审查。 |
+| 7 | 王悦 | 13819100076 | 未联系 / 待确认 | 主动式 Agent / MCP / 记忆系统 | 6 阶段生命周期、5 阶段推送决策、五层记忆、MCP 并行拉取和后台任务框架。 |
 | 8 | 李夏洋 | 15518794255 | 未联系 / 待确认 | Agent Runtime / 通用平台 | Mira Runtime 覆盖 Event Stream、State Machine、ReAct Loop、Tool/Skill、ContextBuilder/Compactor。 |
 | 9 | 孙奇 | 18405675136 | 未联系 / 待确认 | OpenClaw / 工具平台 / 工作流 | OpenClaw Plugin SDK、40+ 工具、网页截图、HTML 渲染、长期记忆、安全边界。 |
 | 10 | 王博涵 | 18991120513 | 未联系 / 待确认 | Agentic RAG / 评测闭环 | Routing、Grading、Self-Reflection、RAGAS、Prometheus、request_id 日志和法律 Agent 自动化评测。 |
@@ -75,13 +75,13 @@
 
 | 顺序 | 候选人 | 电话 | 当前状态 | 适合方向 | 建议 |
 | ---: | --- | --- | --- | --- | --- |
-| 1 | 李正筱 | 18654558025 | 未联系 / 待确认 | Coding Agent / Harness / Runtime | 重点问 Orchestrator、工具调度、失败回滚、记忆和上下文压缩。 |
-| 2 | 王政浩 | 15513950072 | 未联系 / 待确认 | Coding Agent / Context Compression | 重点问 context 压缩、沙箱隔离、读后写锁和断点续跑。 |
-| 3 | 王俊豪 | 13586134636 | 未联系 / 待确认 | AgentHarness / Tool-use / HITL | 重点问主循环、人工确认、数据分析链路和指标来源。 |
-| 4 | 陈康 | 13237333616 | 未联系 / 待确认 | ReAct / MCP / RAG / Memory | 重点问 Query Loop、Observation 回传、MCP 工具边界和评测闭环。 |
-| 5 | 徐耀鹏 | 17302272003 | 未联系 / 待确认 | C++ MCP Server / Infra | 重点问 MCP 协议封装、双传输层、并发连接和 tool/resource/prompt 边界。 |
-| 6 | 邵煜 | 18518653323 | 未联系 / 待确认 | 多 Agent RAG / checkpoint | 重点问状态维护、记忆与 checkpoint、评测集构建和失败样例回放。 |
-| 7 | 马克福 | 17690713967 | 未联系 / 待确认 | LangGraph / RAG / 训练 | 重点问闭环 Agent 的落地、训练与推理边界、评测和实际负责部分。 |
+| 1 | 马克福 | 17690713967 | 未联系 / 待确认 | LangGraph / RAG / 训练 | 重点问闭环 Agent 的落地、训练与推理边界、评测和实际负责部分。 |
+| 2 | 李正筱 | 18654558025 | 未联系 / 待确认 | Coding Agent / Harness / Runtime | 重点问 Orchestrator、工具调度、失败回滚、记忆和上下文压缩。 |
+| 3 | 王政浩 | 15513950072 | 未联系 / 待确认 | Coding Agent / Context Compression | 重点问 context 压缩、沙箱隔离、读后写锁和断点续跑。 |
+| 4 | 王俊豪 | 13586134636 | 未联系 / 待确认 | AgentHarness / Tool-use / HITL | 重点问主循环、人工确认、数据分析链路和指标来源。 |
+| 5 | 陈康 | 13237333616 | 未联系 / 待确认 | ReAct / MCP / RAG / Memory | 重点问 Query Loop、Observation 回传、MCP 工具边界和评测闭环。 |
+| 6 | 徐耀鹏 | 17302272003 | 未联系 / 待确认 | C++ MCP Server / Infra | 重点问 MCP 协议封装、双传输层、并发连接和 tool/resource/prompt 边界。 |
+| 7 | 邵煜 | 18518653323 | 未联系 / 待确认 | 多 Agent RAG / checkpoint | 重点问状态维护、记忆与 checkpoint、评测集构建和失败样例回放。 |
 | 8 | 刘锐 | 18214794197 | 未联系 / 待确认 | 多 Agent 审查 / Playwright / RPA | 重点问 Supervisor-Worker、Playwright/RPA 调用边界、ReAct 自纠错和人工审批接管。 |
 | 9 | 李鑫 | 19862255726 | 未联系 / 待确认 | Agent Swarm / MCP / RAGAS | 重点问 Agent Loop、Swarm 路由、工具调用限制、记忆压缩和反思节点评测。 |
 | 10 | 周升 | 13476527154 | 未联系 / 待确认 | Plan-Execute-Reflection 多 Agent / RAGAS | 重点问反思 Agent 校验、工具 API 超时降级、Memory 复用和 RAGAS 指标。 |
@@ -169,7 +169,7 @@
 1. 周一先打 P0 前 12 人；本周未通过候选不再重复约面。
 2. 每通电话都确认到岗时间、每周天数、可持续月数、是否能讲代码/GitHub/demo。
 3. 技术面统一追加“Agent 思考、决策、反馈”追问，不单独作为一个新岗位。
-4. 如果 P0 里约不到 6 场，就从 P1 和新增补位里按顺序补：李正筱、王政浩、王俊豪、陈康、徐耀鹏、邵煜、马克福、刘锐、李鑫、周升、刘少波、陈翔宇、侯永欣。
+4. 如果 P0 里约不到 6 场，就从 P1 和新增补位里按顺序补：马克福、李正筱、王政浩、王俊豪、陈康、徐耀鹏、邵煜、刘锐、李鑫、周升、刘少波、陈翔宇、侯永欣。
 5. 每通电话后立即回填 [contact-tracking.md](contact-tracking.md)。
 6. 若有 3-5 人一面表现好，周五前安排设计实操或二面。
 

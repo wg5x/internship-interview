@@ -28,7 +28,7 @@
 
 ## 结论
 
-更新：2026-06-26，本周已面试候选人均未通过；黄浩男、胡选杰、刘衡、舒泽林、廖月华不再推进；李烨确定不来。下周执行请优先看 [interview-overview.md](interview-overview.md)、[interview-plan.md](interview-plan.md) 和 [today-contact-list.md](today-contact-list.md) 的 2026-06-29 执行池，本文件后续旧池仅保留筛选依据。
+更新：2026-06-30，本周已面试候选人均未通过；黄浩男、胡选杰、刘衡、舒泽林、廖月华不再推进；李烨确定不来。新增 `实习简历.pdf`（罗政淮）已归入 C 档暂缓。下周执行请优先看 [interview-overview.md](interview-overview.md)、[interview-plan.md](interview-plan.md) 和 [today-contact-list.md](today-contact-list.md) 的 2026-06-29 执行池，本文件后续旧池仅保留筛选依据。
 
 - A 档：优先安排技术一面，核心要求匹配度高。
 - B 档：可作为备选，建议先做 20-30 分钟电话初筛或简历追问。
@@ -165,20 +165,20 @@
 
 ## 2026-06-24 追加简历整理
 
-说明：本批新增 13 份 PDF + 1 份 docx 问卷。`HS6上市后定量调研问卷（线上访谈）-AI问卷V2.docx` 不是简历，不纳入候选人池。排序原则是岗位匹配优先；同档位、匹配度接近时，女生候选尽量前置。
+说明：本批新增 13 份 PDF + 1 份 docx 问卷。`HS6上市后定量调研问卷（线上访谈）-AI问卷V2.docx` 不是简历，不纳入候选人池。排序原则：同档位先女生，其次北京就读候选，再看岗位匹配和到岗条件。
 
 ### 强初筛 / 技术一面补位
 
 | 候选人 | 简历文件 | 判断 | 建议动作 |
 | --- | --- | --- | --- |
 | 曲仁宏 | `曲.pdf` | AI Agent / AI Infra，HChat + HRPC 涉及分布式 RPC、网关、聊天服务和状态服务。 | 强初筛或技术一面，重点问服务拆分、RPC 注册发现、并发模型和个人负责范围。 |
+| 马克福 | `简历_副本4.pdf` | BUPT 硕士，LangGraph / RAG / LoRA / DPO / GRPO 都有，偏模型与 Agent 结合方向。 | 强初筛或技术一面，重点问闭环 Agent 的落地、训练与推理边界、评测和实际负责部分。 |
 | 李正筱 | `李正筱求职.pdf` | 本地代码 Agent Harness，覆盖 Redis TTL、checkpoint / resume、4 模型后端、7 工具和权限边界。 | 强初筛或技术一面，重点问 Orchestrator、工具调度、失败回滚、记忆与上下文压缩。 |
 | 王政浩 | `王政浩简历(2).pdf` | minicodAI 从零构建 Agent 系统，覆盖 ReAct 循环、流式输出、双后端切换和子 Agent 沙箱。 | 强初筛或技术一面，重点问 context 压缩、沙箱隔离、读后写锁和断点续跑。 |
 | 王俊豪 | `最终修改简历！！.pdf` | 企业财务与流量数据分析 AgentHarness，强调 Tool-use、SSE、HITL 和闭环分析。 | 强初筛或技术一面，重点问主循环、人工确认、数据分析链路和指标来源。 |
 | 陈康 | `陈康-Agent开发岗位.pdf` | ReAct / Tool Calling / MCP / RAG / Memory / 评测都覆盖，Agent 架构表达完整。 | 强初筛或技术一面，重点问 Query Loop、Observation 回传、MCP 工具边界和评测闭环。 |
 | 徐耀鹏 | `C++开发 - 徐耀鹏 - 17302272003 - 中国地质大学（武汉）.pdf` | C++17 MCP Server，做了 HTTP / stdio 双传输层、工具注册、资源、Prompt、本地 Ollama 集成。 | 强初筛或技术一面，重点问 MCP 协议封装、双传输层、并发连接和 tool/resource/prompt 边界。 |
 | 邵煜 | `邵煜.pdf` | 多 Agent RAG 研究链路、SQLite 记忆 / checkpoint、评测集和长期任务思路比较清楚。 | 强初筛或技术一面，重点问状态维护、记忆与 checkpoint、评测集构建和失败样例回放。 |
-| 马克福 | `简历_副本4.pdf` | BUPT 硕士，LangGraph / RAG / LoRA / DPO / GRPO 都有，偏模型与 Agent 结合方向。 | 强初筛或技术一面，重点问闭环 Agent 的落地、训练与推理边界、评测和实际负责部分。 |
 
 ### 低优先初筛 / 方向补充
 
@@ -273,6 +273,7 @@
 | 林欣宇 | `个人简历_LXY.pdf` | 只有较简单的本地知识库 AI 助手，深度和工程复杂度不足。 |
 | 蒋锦宏 | `蒋锦宏简历.pdf` | 年级较低，Agent 旅行规划项目偏入门，暂不作为当前面试对象。 |
 | 魏正沙 | `求职简历1111.pdf` | 当前可抽取信息只有基础个人信息，缺少岗位相关项目和技能证据。 |
+| 罗政淮 | `实习简历.pdf` | 厦门大学研一，Django/Vue 全栈和 LangChain 虚拟陪伴平台为主，缺少当前 Agent / RAG 主线证据。 |
 
 ## 面试验证风险点
 
